@@ -5,6 +5,7 @@ import Navbar from '../Component/Navbar'
 import Main from '../Component/Main'
 import Movie from '../Component/Movie'
 import Podcast from '../Component/Podcast'
+import Footer from '../Component/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -15,6 +16,7 @@ export default function Home() {
     <Main/>
     <Movie/>
     <Podcast/>
+    <Footer/>
 </div>
   )
 }

@@ -11,8 +11,8 @@ function Podcast() {
                     <img src="/assets/Images/Podcast/podcast.png" alt="" className='h-full w-full rounded-lg' />
                 </div>
                 <div className='flex-1 mx-6'>
-                    <h1 className='text-black text-4xl mt-9'>Conversations with Krsna:</h1>
-                    <p className='text-black text-2xl mt-4'>This long form podcast is hosted by Krsna Daswani, a relationship coach/ expert. She interviews wide ranging guests to tease out their professional and personal lives to enlighten, educate and entertain audiences.</p>
+                    <h1 className='text-black text-4xl mt-12'>Conversations with Krsna:</h1>
+                    <p className='text-black text-lg leading-8 mt-4'>This long form podcast is hosted by Krsna Daswani, a relationship coach/ expert. She interviews wide ranging guests to tease out their professional and personal lives to enlighten, educate and entertain audiences.</p>
                     <div className='flex gap-4 mt-2'>
                               {/*<img src="/assets/Images/Podcast/Play-Button.png" alt="" className='h-12 w-12' />
                         <img src="/assets/Images/Podcast/Spotify.png" alt="" className='h-12 w-12' />
