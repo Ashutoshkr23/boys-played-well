@@ -14,7 +14,7 @@ function Merchandise() {
                   }}
                   className='text-5xl font-bold'
               >
-                  COMING SOON
+                  MERCHANDISE COMING SOON
               </motion.p>
           </div>
           
@@ -50,12 +50,9 @@ function Merchandise() {
                   }}
                     className='text-5xl font-bold'
               >
-                    COMING SOON
+                    MERCHANDISE COMING SOON
               </motion.p>
           </div>
-          
-         
-
     </div>
   )
 }
