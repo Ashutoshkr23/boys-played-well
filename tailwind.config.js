@@ -4,7 +4,17 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
-  },
-  plugins: [require("daisyui")],
+    extend: {
+      keyframes: {
+        wiggle: {     
+          from : { transform: 'translateX(100 %)' },
+          to :{  transform: 'translateX(-100 %)' }
+       }
+      },
+       animation: {
+        wiggle: 'wiggle 15s linear infinite',
+      }
+      },
+    },
+  plugins: [require("daisyui"), ],
 }
