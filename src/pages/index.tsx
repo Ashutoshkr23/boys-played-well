@@ -19,7 +19,6 @@ export default function Home() {
     <Movie/>
     <Podcast/>
     <Footer/>
-    <Demo/>
     <Merchandise/>
 </div>
   )
