@@ -55,6 +55,8 @@ function Merchandise() {
                   COMING SOON &nbsp; COMING SOON &nbsp;  COMING SOON
               </motion.p>
           </div>
+          
+
     </div>
   )
 }
