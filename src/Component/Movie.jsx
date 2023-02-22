@@ -4,7 +4,7 @@ function Movie() {
   return (
     <div>
       <div className='my-20 mx-40'>
-        <h1 className='text-5xl'>Films</h1>
+        <h1 className='text-5xl -ml-10'>Films</h1>
         <div className="relative h-[400px] mt-10  rounded-lg">
           <div
             className="absolute top-0 rounded-lg left-0 w-full h-full bg-center bg-cover filter "

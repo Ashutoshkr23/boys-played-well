@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 function Merchandise() {
   return (
     <div className='my-20'>
+          <h1 className='text-5xl ml-32 mb-10'>Merchandise</h1>
           <div style={{ overflowX: 'hidden' }}>
               <motion.p
                   initial={{ x: '100%', opacity: 1, overflowY: 'hidden' }}
