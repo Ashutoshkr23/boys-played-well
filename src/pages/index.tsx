@@ -18,7 +18,7 @@ export default function Home() {
     <Main/>
     <Movie/>
     <Podcast/>
-    <Merchandise />
+    <Merchandise/>
     <Footer/>
     
 </div>
