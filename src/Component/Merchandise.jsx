@@ -50,6 +50,7 @@ function Merchandise() {
                       transition: { duration: 12, ease: 'easeInOut', repeat: Infinity, repeatDelay: 1 }
                   }}
                     className='text-3xl font-bold'
+                  style={{ wordSpacing: '0.5em' }}
               >
                   COMING SOON &nbsp; COMING SOON &nbsp;  COMING SOON
               </motion.p>
