@@ -2,23 +2,57 @@ import React from 'react'
 import { motion } from 'framer-motion';
 
 function Merchandise() {
+    const fadeSlideIn = {
+        initial: {
+            x: 50,
+            opacity: 0
+        },
+        animate: {
+            x: 0,
+            opacity: 1,
+            transition: {
+                duration: 1,
+                type: 'spring',
+                bounce: 0.5
+            }
+        },
+        exit: {
+            x: -50,
+            opacity: 0
+        }
+    }
+
+    const textVariants = {
+        initial: {
+            opacity: 0,
+            y: 50,
+            rotateZ: 30,
+        },
+        animate: {
+            opacity: 1,
+            y: 0,
+            rotateZ: 0,
+            transition: {
+                duration: 0.5,
+            },
+        },
+        exit: {
+            opacity: 0,
+            y: -50,
+            rotateZ: -30,
+            transition: {
+                duration: 0.5,
+            },
+        },
+    }
+
+   
   return (
     <div className='my-20'>
           <h1 className='text-5xl ml-32 mb-10'>Merchandise</h1>
-          <div style={{ overflowX: 'hidden' }}>
-              <motion.p
-                  initial={{ x: '100%', opacity: 1, overflowY: 'hidden' }}
-                  animate={{
-                      x: '-100%',
-                      opacity: 1,
-                      transition: { duration: 12, ease: 'easeInOut', repeat: Infinity, repeatDelay: 0 }
-                  }}
-                  className='text-3xl font-bold'
-                  style={{ wordSpacing: '0.5em' }}
-              >
-                  COMING SOON &nbsp; COMING SOON &nbsp;  COMING SOON
-              </motion.p>
-          </div>
+          <motion.div transition={{ duration: 0.6 }} variants={fadeSlideIn} initial="initial" whileInView="animate" exit="exit" viewport={{ once: false, amount: 0.8 }} className="flex justify-center">
+              <h1 className='text-6xl  my-20'>COMING SOON</h1>
+          </motion.div>
           
           <div className='mx-24 flex gap-40 justify-center '>
             <div className='merchnadise-card h-[400px] w-[250px] rounded-lg bg-white my-20'>
@@ -42,20 +76,7 @@ function Merchandise() {
           </div>
 
 
-          <div style={{ overflowX: 'hidden', overflowY: 'hidden' }}>
-              <motion.p
-                  initial={{ x: '100%', opacity: 1 }}
-                  animate={{
-                      x: '-100%',
-                      opacity: 1,
-                      transition: { duration: 12, ease: 'easeInOut', repeat: Infinity, repeatDelay: 1 }
-                  }}
-                    className='text-3xl font-bold'
-                  style={{ wordSpacing: '0.5em' }}
-              >
-                  COMING SOON &nbsp; COMING SOON &nbsp;  COMING SOON
-              </motion.p>
-          </div>
+
           
 
     </div>
