@@ -11,7 +11,7 @@ function Footer() {
         getYear();
     }, [])
     return (
-        <div className=' pt-24 pb-4'>
+        <div className='bg-black pt-24 pb-4'>
                 <div className="flex flex-row flex-wrap justify-center mx-auto my-4 min-w-0 items-center" style={{ height: '40px', width: '528px', borderRadius: '19px', margin: 'auto' }}>
                     <a href="#" target="blank" className="w-11 h-10">
                         <img className="w-6 h-6 hover:scale-125 inline-block" src={"assets/Images/footer/fb.svg"} alt="facebook icon" />

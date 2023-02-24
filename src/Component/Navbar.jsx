@@ -3,7 +3,7 @@ import React, {useState} from 'react'
 function Navbar() {
   const [isDarkMode, setDarkMode] = React.useState(true)
   return (
-    <div>
+    <div className='bg-black'>
       <div className="navbar bg-base-100 px-20">
         <div className="navbar-start">
           <div className="dropdown">

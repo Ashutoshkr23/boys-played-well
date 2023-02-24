@@ -48,7 +48,7 @@ function Merchandise() {
 
    
   return (
-    <div className='my-20'>
+    <div className='py-20 bg-black text-white'>
           <h1 className='text-5xl ml-32 mb-10'>Merchandise</h1>
           <motion.div transition={{ duration: 0.6 }} variants={fadeSlideIn} initial="initial" whileInView="animate" exit="exit" viewport={{ once: false, amount: 0.8 }} className="flex justify-center">
               <h1 className='text-6xl  my-20'>COMING SOON</h1>

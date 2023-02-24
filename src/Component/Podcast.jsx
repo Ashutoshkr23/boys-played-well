@@ -3,7 +3,7 @@ import React from 'react'
 function Podcast() {
   return (
     <div>
-      <div className='my-20 mx-40 '>
+      <div className='py-20 px-40 bg-black text-white '>
           <h1 className='text-5xl'>Podcast</h1>
         <div className='mx-10 my-20 bg-white hover:scale-110 ease-in-out duration-300 h-[360px] rounded-lg'>
             <div className='flex'>
