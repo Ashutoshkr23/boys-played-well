@@ -5,7 +5,7 @@ function Podcast() {
     <div>
       <div className='my-20 mx-40 '>
           <h1 className='text-5xl'>Podcast</h1>
-          <div className='mx-10 my-20 bg-white h-[360px] rounded-lg'>
+        <div className='mx-10 my-20 bg-white hover:scale-110 ease-in-out duration-300 h-[360px] rounded-lg'>
             <div className='flex'>
                 <div className='h-[300px] w-[300px] ml-7 mt-7 rounded-lg'>
                     <img src="/assets/Images/Podcast/podcast.png" alt="" className='h-full w-full rounded-lg' />

@@ -5,7 +5,7 @@ function Movie() {
     <div>
       <div className='my-20 mx-40'>
         <h1 className='text-5xl -ml-10'>Films</h1>
-        <div className="relative h-[400px] mt-10  rounded-lg">
+        <div className="relative h-[400px] mt-10 hover:scale-110 ease-in-out duration-300  rounded-lg">
           <div
             className="absolute top-0 rounded-lg left-0 w-full h-full bg-center bg-cover filter "
             style={{ backgroundImage: "url('https://source.unsplash.com/random')" }}
@@ -29,9 +29,9 @@ function Movie() {
           </div>
         </div>
 
-        <div className="relative h-[400px] mt-20  rounded-lg">
+        <div className="relative h-[400px] hover:scale-110 ease-in-out duration-300 mt-20  rounded-lg">
           <div
-            className="absolute top-0 rounded-lg left-0 w-full h-full bg-center bg-cover filter "
+            className="absolute top-0 rounded-lg left-0 w-full h-full bg-center  bg-cover filter "
             style={{ backgroundImage: "url('https://source.unsplash.com/random')" }}
           />
           <div className="relative pl-10 pt-10 rounded-lg bg-gradient-to-r from-black via-black to-transparent z-10 h-full flex flex-col ">
