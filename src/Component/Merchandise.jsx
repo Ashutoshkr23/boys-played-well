@@ -46,12 +46,12 @@ function Merchandise() {
   return (
     <div className='py-20 bg-black text-white'>
         <div className='hidden md:block'>
-              <h1 className='text-5xl ml-32 mb-10'>Merchandise</h1>
+              <h1 className='text-5xl ml-20 lg:ml-32 mb-10'>Merchandise</h1>
               <motion.div transition={{ duration: 0.6 }} variants={fadeSlideIn} initial="initial" whileInView="animate" exit="exit" viewport={{ once: false, amount: 0.8 }} className="flex justify-center">
-                  <h1 className='text-6xl  my-20'>COMING SOON</h1>
+                  <h1 className='text-4xl my-20'>COMING SOON</h1>
               </motion.div>
 
-              <div className='mx-24 flex gap-40 justify-center '>
+              <div className='mx-16 lg:mx-24 flex gap-20 lg:gap-40 justify-center '>
                   <div className='merchnadise-card h-[400px] w-[250px] rounded-lg bg-white my-20'>
                       <div className='w-full h-3/4'>
                           <img src="/assets/Images/Merchandise/T-shirt.jpg" alt="T-shirt" className='w-full h-full rounded-lg ' />
