@@ -1,4 +1,4 @@
-import React from 'react'
+import React ,{useState, useEffect} from 'react'
 import { motion } from 'framer-motion';
 
 function Merchandise() {
@@ -18,36 +18,49 @@ function Merchandise() {
         }
     }
 
-    const textVariants = {
+    const fadeSlideInOut = {
         initial: {
             opacity: 0,
-            y: 50,
-            rotateZ: 30,
         },
         animate: {
             opacity: 1,
-            y: 0,
-            rotateZ: 0,
             transition: {
-                duration: 0.5,
+                duration: 0.6,
             },
         },
         exit: {
             opacity: 0,
-            y: -50,
-            rotateZ: -30,
             transition: {
-                duration: 0.5,
+                duration: 1,
             },
         },
-    }
+    };
+
+        const [isVisible, setIsVisible] = useState(false);
+
+        useEffect(() => {
+            const timeoutId = setTimeout(() => {
+                setIsVisible(true);
+                setTimeout(() => {
+                    setIsVisible(false);
+                }, 5000);
+            }, 0);
+            return () => clearTimeout(timeoutId);
+        }, []);
 
    
   return (
     <div className='py-20 bg-black text-white' id='merchandise'>
         <div className='hidden md:block'>
               <h1 className='text-5xl ml-20 lg:ml-32 mb-10'>Merchandise</h1>
-              <motion.div transition={{ duration: 0.6 }} variants={fadeSlideIn} initial="initial" whileInView="animate" exit="exit" viewport={{ once: false, amount: 0.8 }} className="flex justify-center">
+              <motion.div
+                  variants={fadeSlideInOut}
+                  initial="initial"
+                  animate={isVisible ? "animate" : "initial"}
+                  exit={isVisible ? "exit" : "initial"}
+                  viewport={{ once: false, threshold: 0.8 }}
+                  className="flex justify-center"
+              >
                   <h1 className='text-4xl my-20'>COMING SOON</h1>
               </motion.div>
 
