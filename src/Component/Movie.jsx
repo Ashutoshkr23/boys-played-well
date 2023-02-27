@@ -2,7 +2,7 @@ import React from 'react'
 
 function Movie() {
   return (
-    <div className='bg-black py-20'>
+    <div className='bg-black py-20' id='movie'>
       <div className='hidden md:block mx-10 lg:mx-40 text-white'>
         <h1 className='text-5xl '>Films</h1>
         <div className="relative shadow-xl hover:shadow-green-600  shadow-green-300  h-auto mt-10 hover:scale-110 ease-in-out duration-300  rounded-lg">

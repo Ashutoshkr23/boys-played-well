@@ -2,7 +2,7 @@ import React from 'react'
 
 function Podcast() {
   return (
-    <div>
+    <div id='podcast'>
       <div className='hidden md:block py-20 px-8 lg:px-40 bg-black text-white '>
         <h1 className='text-5xl'>Podcast</h1>
         <div className='mx-2 lg:mx-10 my-20 bg-white hover:scale-110 ease-in-out duration-300 h-80 lg:h-96 rounded-lg'>
