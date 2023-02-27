@@ -4,7 +4,7 @@ function Movie() {
   return (
     <div className='bg-black py-20'>
       <div className='hidden md:block mx-10 lg:mx-40 text-white'>
-        <h1 className='text-5xl -ml-10'>Films</h1>
+        <h1 className='text-5xl '>Films</h1>
         <div className="relative shadow-xl hover:shadow-green-600  shadow-green-300  h-auto mt-10 hover:scale-110 ease-in-out duration-300  rounded-lg">
           <div
             className="absolute top-0 rounded-lg left-0 w-full h-full bg-center bg-cover filter "
