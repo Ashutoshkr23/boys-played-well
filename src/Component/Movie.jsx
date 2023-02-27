@@ -46,7 +46,7 @@ function Movie() {
                 </div>
               </div>
               <div className='pr-16'>
-                <p className='text-sm mt-6 lg:mt-10 pl-4  text-white'> Follows a journalist and a politician. The former to elicit the ground reality and sentiment for ‘azadi’ in South Kashmir and the latter to highlight the campaign for Indian democracy in a conflict torn state. The film focuses on the 2019 parliamentary election campaign and the historic events that followed.
+                <p className='text-sm mt-6 lg:mt-10 pl-4 mb-6 lg:mb-10  text-white'> Follows a journalist and a politician. The former to elicit the ground reality and sentiment for ‘azadi’ in South Kashmir and the latter to highlight the campaign for Indian democracy in a conflict torn state. The film focuses on the 2019 parliamentary election campaign and the historic events that followed.
                 </p>
               </div>
             </div>
@@ -65,7 +65,7 @@ function Movie() {
             </div>
           </div>
           <div >
-            <p className='text-sm mt-6 pl-4 pr-4 pb-4 mb-6 lg:mb-10 text-white'> Follows the lives of tea garden labourers paid a wage of ₹132/day in West Bengal, India. The workers present their circumstance, experience of exploitation. The film focuses on two women from the village Jeewani and Jyoti, niece and aunt respectively.
+            <p className='text-sm mt-6 pl-4 pr-4 pb-4  text-white'> Follows the lives of tea garden labourers paid a wage of ₹132/day in West Bengal, India. The workers present their circumstance, experience of exploitation. The film focuses on two women from the village Jeewani and Jyoti, niece and aunt respectively.
             </p>
           </div>
         </div>
