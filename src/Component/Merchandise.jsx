@@ -1,5 +1,6 @@
 import React ,{useState, useEffect} from 'react'
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 function Merchandise() {
     const fadeSlideIn = {
@@ -67,7 +68,7 @@ function Merchandise() {
               <div className='mx-16 lg:mx-24 flex gap-20 lg:gap-40 justify-center '>
                   <div className='merchnadise-card h-[400px] w-[250px] rounded-lg bg-white my-20'>
                       <div className='w-full h-3/4'>
-                          <img src="/assets/Images/Merchandise/T-shirt.jpg" alt="T-shirt" className='w-full h-full rounded-lg ' />
+                          <Image src="/assets/Images/Merchandise/T-shirt.jpg" alt="T-shirt" className='w-full h-full rounded-lg ' />
                           <h1 className='text-lg text-black text-center mt-2'>T-shirt</h1>
                           <div className='flex justify-center'>
                               <button className='h-8 btn w-28 mt-2 mx-auto rounded hover:bg-blue-1 hover:font-bold hover:border-none text-white border border-white my-auto'>Shop Now</button>
@@ -76,7 +77,7 @@ function Merchandise() {
                   </div>
                   <div className='merchnadise-card h-[400px] w-[250px] rounded-lg bg-white my-20'>
                       <div className='w-full h-3/4'>
-                          <img src="/assets/Images/Merchandise/Hoodie.jpg" alt="T-shirt" className='w-full h-full rounded-lg ' />
+                          <Image src="/assets/Images/Merchandise/Hoodie.jpg" alt="T-shirt" className='w-full h-full rounded-lg ' />
                           <h1 className='text-lg text-black text-center mt-2'>Hoodie</h1>
                           <div className='flex justify-center'>
                               <button className='h-8 btn w-28 mt-2 mx-auto rounded hover:bg-blue-1 hover:font-bold hover:border-none text-white border border-white my-auto'>Shop Now</button>
@@ -94,7 +95,7 @@ function Merchandise() {
               <div className='mx-10 flex gap-40 justify-center '>
                   <div className='merchnadise-card h-[400px] w-[250px] rounded-lg bg-white my-8'>
                       <div className='w-full h-3/4'>
-                          <img src="/assets/Images/Merchandise/T-shirt.jpg" alt="T-shirt" className='w-full h-full rounded-lg ' />
+                          <Image src="/assets/Images/Merchandise/T-shirt.jpg" alt="T-shirt" className='w-full h-full rounded-lg ' />
                           <h1 className='text-lg text-black text-center mt-2'>T-shirt</h1>
                           <div className='flex justify-center'>
                               <button className='h-8 btn w-28 mt-2 mx-auto rounded hover:bg-blue-1 hover:font-bold hover:border-none text-white border border-white my-auto'>Shop Now</button>

@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 function Movie() {
@@ -14,7 +15,7 @@ function Movie() {
             <div className='w-1/2'>
               <div className='flex'>
                 <div className='h-40 w-40'>
-                  <img src="/assets/Images/Movie/Chaigarden.jpg" alt="" className='h-full w-full rounded-lg mt-2 ml-2' />
+                  <Image src="/assets/Images/Movie/Chaigarden.jpg" alt="" className='h-full w-full rounded-lg mt-2 ml-2' />
                 </div>
                 <div className='ml-4 mt-4'>
                   <h1 className='text-2xl text-white mt-2 ml-2'>CHAI GARDEN</h1>
@@ -38,7 +39,7 @@ function Movie() {
             <div className='w-1/2'>
               <div className='flex'>
                 <div className='h-40 w-40'>
-                  <img src="/assets/Images/Movie/Kashmiri.png" alt="" className='h-full w-full rounded-lg mt-2 ml-2' />
+                  <Image src="/assets/Images/Movie/Kashmiri.png" alt="" className='h-full w-full rounded-lg mt-2 ml-2' />
                 </div>
                 <div className='ml-4 mt-4'>
                   <h1 className='text-2xl text-white mt-2 ml-2'>KASHMIRI NAZARIYA</h1>
@@ -58,7 +59,7 @@ function Movie() {
         <h1 className='ml-6 my-8 text-white text-3xl'>Films</h1>
         <div className='flex-col rounded-lg mb-10 shadow-lg mx-auto shadow-green-700 w-11/12'>
           <div className='flex '>
-            <img src="/assets/Images/Movie/Chaigarden.jpg" alt="" className=' w-2/5 rounded-lg mt-4 ml-4' />
+            <Image src="/assets/Images/Movie/Chaigarden.jpg" alt="" className=' w-2/5 rounded-lg mt-4 ml-4' />
             <div className='pl-4 pt-4'>
               <h1 className='text-2xl text-white mt-2 ml-2'>CHAI GARDEN</h1>
               <h2 className='text-sm mt-2 text-white ml-2'>52 Min | Drama | 2023</h2>
@@ -72,7 +73,7 @@ function Movie() {
 
         <div className='flex-col rounded-lg mb-10 mt-10 shadow-lg mx-auto shadow-green-700 w-11/12'>
           <div className='flex '>
-            <img src="/assets/Images/Movie/Kashmiri.png" alt="" className=' w-2/5 rounded-lg mt-4 ml-4' />
+            <Image src="/assets/Images/Movie/Kashmiri.png" alt="" className=' w-2/5 rounded-lg mt-4 ml-4' />
             <div className='pl-4 pt-4'>
               <h1 className='text-2xl text-white mt-2 ml-2'>KASHMIRI NAZARIYA</h1>
               <h2 className='text-sm mt-2 text-white ml-2'>31 Min | Drama | 2023</h2>

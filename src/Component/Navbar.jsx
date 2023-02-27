@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React, {useState} from 'react'
 
 function Navbar() {
@@ -20,10 +21,10 @@ function Navbar() {
           </div>
         </div>
         <div className="navbar-center">
-          <img src="assets/Images/Navbar/Logo.jpeg" alt="" className='h-12 rounded-md' />
+          <Image src="assets/Images/Navbar/Logo.jpeg" alt="" className='h-12 rounded-md' />
         </div>
         <div className="navbar-end">
-          <img src={isDarkMode ? "assets/Images/Navbar/Moon.svg " : " assets/Images/Navbar/Sun.svg "} alt="image" className="w-6 h-6 mr-4" />
+          <Image src={isDarkMode ? "assets/Images/Navbar/Moon.svg " : " assets/Images/Navbar/Sun.svg "} alt="image" className="w-6 h-6 mr-4" />
           <label className="relative inline-flex items-center ">
             <input
               type="checkbox"

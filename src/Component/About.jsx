@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 function About() {
@@ -8,14 +9,14 @@ function About() {
               <div className='mx-2 lg:mx-10 my-20 bg-white hover:scale-110 ease-in-out duration-300 h-80 lg:h-96 rounded-lg'>
                   <div className='flex'>
                       <div className='h-64 w-64 lg:h-80 lg:w-80 ml-3 lg:ml-7 mt-3 lg:mt-7 rounded-lg'>
-                          <img src="/assets/Images/Podcast/podcast.png" alt="" className='h-full w-full rounded-lg' />
+                          <Image src="/assets/Images/Podcast/podcast.png" alt="" className='h-full w-full rounded-lg' />
                       </div>
                       <div className='flex-1 mx-6'>
                           <h1 className='text-black text-3xl lg:text-4xl mt-4 lg:mt-12'>About Us</h1>
                           <p className='text-black text-lg leading-8 mt-4'>This long form podcast is hosted by Krsna Daswani, a relationship coach/ expert. She interviews wide ranging guests to tease out their professional and personal lives to enlighten, educate and entertain audiences.</p>
                           <div className='flex gap-4 mt-2'>
-                              <a href="#"><img src="/assets/Images/About/Fb.png" alt="" className='h-12 w-12' /></a>
-                              <a href="#"><img src="/assets/Images/About/Instagram.png" alt="" className='h-12 w-12' /></a>   
+                              <a href="#"><Image src="/assets/Images/About/Fb.png" alt="" className='h-12 w-12' /></a>
+                              <a href="#"><Image src="/assets/Images/About/Instagram.png" alt="" className='h-12 w-12' /></a>   
                           </div>
                       </div>
                   </div>
@@ -25,12 +26,12 @@ function About() {
               <h1 className='py-10 pl-6 text-white text-3xl'>About</h1>
               <div className='bg-white mx-4 text-black rounded-lg'>
                   <div className='flex  '>
-                      <img src="/assets/Images/Podcast/podcast.png" alt="" className=' w-2/5 rounded-lg mt-4 ml-4' />
+                      <Image src="/assets/Images/Podcast/podcast.png" alt="" className=' w-2/5 rounded-lg mt-4 ml-4' />
                       <div className='pl-4 pt-4'>
                           <h1 className='text-2xl  mt-2 ml-2'>About Us</h1>
                           <div className='flex gap-4 mt-2'>
-                              <a href="#"><img src="/assets/Images/About/Fb.png" alt="" className='h-12 w-12' /></a>
-                              <a href="#"><img src="/assets/Images/About/Instagram.png" alt="" className='h-12 w-12' /></a>
+                              <a href="#"><Image src="/assets/Images/About/Fb.png" alt="" className='h-12 w-12' /></a>
+                              <a href="#"><Image src="/assets/Images/About/Instagram.png" alt="" className='h-12 w-12' /></a>
                           </div>
                       </div>
                   </div>
