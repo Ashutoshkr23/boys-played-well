@@ -55,7 +55,7 @@ function Movie() {
       </div>
 
       <div className='md:hidden'>
-        <h1 className='ml-6 my-8 text-3xl'>Films</h1>
+        <h1 className='ml-6 my-8 text-white text-3xl'>Films</h1>
         <div className='flex-col rounded-lg mb-10 shadow-lg mx-auto shadow-green-700 w-11/12'>
           <div className='flex '>
             <img src="/assets/Images/Movie/Chaigarden.jpg" alt="" className=' w-2/5 rounded-lg mt-4 ml-4' />
