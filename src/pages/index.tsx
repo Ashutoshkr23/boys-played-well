@@ -10,6 +10,7 @@ import Demo from '../Component/Demo'
 import Merchandise from '../Component/Merchandise'
 import About from '../Component/About'
 import Films from '../Component/Films'
+import TV from '../Component/TV'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,6 +20,7 @@ export default function Home() {
     <Navbar/>
     <Main/>
     <Films/>
+    <TV/>
 </div>
   )
 }
