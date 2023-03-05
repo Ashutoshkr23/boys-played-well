@@ -5,14 +5,10 @@ module.exports = {
   ],
   theme: {
     extend: {
-      keyframes: {
-        wiggle: {     
-          from : { transform: 'translateX(100 %)' },
-          to :{  transform: 'translateX(-100 %)' }
-       }
-      },
-       animation: {
-        wiggle: 'wiggle 15s linear infinite',
+      dropShadow: {
+        'blue-1': '0 0px 30px rgba(61, 116, 167, 0.5)',
+        'orange-1': '0 0px 30px rgba(236, 129, 64, 0.5)',
+        'green-1': '0 0px 30px rgba(0, 153, 102, 0.5)',
       }
       },
     },
