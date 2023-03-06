@@ -3,7 +3,7 @@ import React from 'react'
 function PodcastComponent({img1, img2, title , date , description , dropShadow}) {
   return (
     <div >
-      <div className={`h-[357px] bg-black rounded-lg ${dropShadow} w-[839px] flex  my-20  pl-7`}>
+      <div className='hidden md:block'><div className={`h-[357px] bg-black rounded-lg ${dropShadow} w-[839px] flex  my-20  pl-7`}>
         <div className='h-full w-64 relative ml-auto '>
           <img className='w-full h-full bg-cover' src={img1} alt="" />
           <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-black to-transparent"></div>
@@ -25,7 +25,34 @@ function PodcastComponent({img1, img2, title , date , description , dropShadow})
             <p className='text-sm mt-5 mr-16'>{description}</p>
           </div>
         </div>
-      </div>   
+      </div>
+      </div>
+
+      {/* Mobile View */}
+      <div className='md:hidden'>
+        <div className={`bg-black h-[250px] rounded-md  w-[350px] mt-14 mb-10 pt-3 pl-3 ${dropShadow}`}>
+          <div className='flex'>
+            <div className='h-[111px] w-[111px]'>
+              <img src={img1} alt="" className='h-full w-full rounded-lg' />
+            </div>
+            <div className='ml-4 '>
+              <h1 className='text-base'>{title}</h1>
+              <h3 className='text-[#ED5266] text-[10px] mt-0.5'>{date}</h3>
+              <button className="border h-8 w-[127px] rounded-md text-[#B6B6B6] border-[#ED5266] mt-2  pl-3 text-xs flex items-center">
+                LISTEN NOW
+                <img src="/assets/Images/Movie/playimg.png" alt="" className="ml-4 h-5 w-5" />
+              </button>
+              <div className='flex gap-2.5 mt-3'>
+                <a href="#"><img src="/assets/Images/Podcast/Spotify.svg" alt="" className='h-5 w-5' /></a>
+                <a href="#"><img src="/assets/Images/Podcast/ApplePodcast.svg" alt="" className='h-5 w-5' /></a>
+              </div>
+            </div>
+          </div>
+          <p className='text-[10px] mt-8 leading-relaxed mb-6 mr-3 text-white'> {description}
+          </p>
+        </div>
+      </div>
+      
     </div>
   )
 }

@@ -4,7 +4,7 @@ import React, {useState} from 'react'
 function Navbar() {
   const [isDarkMode, setDarkMode] = React.useState(true)
   return (
-    <div className='text-white px-28 py-5'>
+    <div className='text-white px-28 py-5 hidden md:block'>
       <div className='flex justify-between'>
         <div><h1 className='text-white text-2xl font-extrabold'>BPW</h1></div>
         <div>
