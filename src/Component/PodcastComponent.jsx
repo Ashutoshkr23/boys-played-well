@@ -1,9 +1,9 @@
 import React from 'react'
 
-function PodcastComponent({img1, img2, title , date , description}) {
+function PodcastComponent({img1, img2, title , date , description , dropShadow}) {
   return (
     <div >
-      <div className='h-[357px] bg-black rounded-lg drop-shadow-orange-1 w-[839px] flex  my-20  pl-7 '>
+      <div className={`h-[357px] bg-black rounded-lg ${dropShadow} w-[839px] flex  my-20  pl-7`}>
         <div className='h-full w-64 relative ml-auto '>
           <img className='w-full h-full bg-cover' src={img1} alt="" />
           <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-black to-transparent"></div>
