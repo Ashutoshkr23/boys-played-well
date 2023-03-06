@@ -31,28 +31,7 @@ function FilmsComponent({img1 , img2 , dropShadow , movieName , aboutmovie , mov
           </div>
 
       {/*
-         <div className="relative shadow-xl hover:shadow-green-600  shadow-green-300  h-auto mt-10 hover:scale-110 ease-in-out duration-300  rounded-lg">
-          <div
-            className="absolute top-0 rounded-lg left-0 w-full h-full bg-center bg-cover filter "
-            style={{ backgroundImage: "url('https://source.unsplash.com/random')" }}
-          />
-          <div className="relative pl-4 lg:pl-10 pt-4  lg:pt-10 rounded-lg bg-gradient-to-r from-black via-black to-transparent z-10 h-full flex flex-col ">
-            <div className='w-1/2'>
-              <div className='flex'>
-                <div className='h-40 w-40'>
-                  <Image src="/assets/Images/Movie/Chaigarden.jpg" alt="" className='h-full w-full rounded-lg mt-2 ml-2' />
-                </div>
-                <div className='ml-4 mt-4'>
-                  <h1 className='text-2xl text-white mt-2 ml-2'>CHAI GARDEN</h1>
-                  <h2 className='text-sm mt-2 text-white ml-2'>31 Min | Drama | 2023</h2>
-                </div>
-              </div>
-              <div className='pr-16'>
-                <p className='text-sm mt-6 lg:mt-10 pl-4 mb-6 lg:mb-10 text-white'> Follows the lives of tea garden labourers paid a wage of ₹132/day in West Bengal, India. The workers present their circumstance, experience of exploitation. The film focuses on two women from the village Jeewani and Jyoti, niece and aunt respectively.
-                </p>
-              </div>
-            </div>
-          </div>
+         
         </div>
       */}
     </div>
