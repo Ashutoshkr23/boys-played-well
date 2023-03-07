@@ -21,7 +21,7 @@ export default function Home() {
     <Films/>
     <Tv/>
     <Podcast/>
-    <Merchandise/>
+    
     <Footer/>
 </div>
   )
