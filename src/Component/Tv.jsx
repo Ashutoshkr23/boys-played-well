@@ -2,7 +2,7 @@ import React from 'react'
 
 function Tv() {
   return (
-    <div>
+    <div id='tv'>
       <div className='hidden md:block'>
         <div className=' flex flex-col my-28 text-white items-center '>
           <h1 className='text-[40px] mb-28'>TV</h1>
