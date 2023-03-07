@@ -1,7 +1,14 @@
 import React from 'react'
-import { motion } from 'framer-motion';
+import { motion , AnimatePresence } from 'framer-motion';
 
 function Main() {
+  const itemVariants = {
+    visible: { scale: 0.8, opacity: 1 },
+    hidden: { scale: 0.6, opacity: 0 },
+  };
+
+  const itemTransition = { duration: 0.5 };
+
   return (
 
     <div className='relative  bg-black text-white mt-10 pb-10'>
@@ -25,9 +32,39 @@ function Main() {
             Support
           </button>
           <ul className="flex flex-col items-center">
-            <li className='h-3 w-3 border border-white rounded-md mt-8'></li>
-            <li className='h-2.5 w-2.5 border border-white border-opacity-60 rounded-[5px] mt-8 '></li>
-            <li className='h-2 w-2 border border-white border-opacity-30 rounded-[4px] mt-8'></li>
+            <AnimatePresence>
+              <motion.li
+                key="item1"
+                className="h-3 w-3 border border-white rounded-md mt-8"
+                variants={itemVariants}
+                initial="hidden"
+                animate="visible"
+                exit="hidden"
+                transition={{ ...itemTransition, delay: 0 }}
+              />
+            </AnimatePresence>
+            <AnimatePresence>
+              <motion.li
+                key="item2"
+                className="h-2.5 w-2.5 border border-white border-opacity-60 rounded-[5px] mt-8 "
+                variants={itemVariants}
+                initial="hidden"
+                animate="visible"
+                exit="hidden"
+                transition={{ ...itemTransition, delay: 0.5 }}
+              />
+            </AnimatePresence>
+            <AnimatePresence>
+              <motion.li
+                key="item3"
+                className="h-2 w-2 border border-white border-opacity-30 rounded-[4px] mt-8"
+                variants={itemVariants}
+                initial="hidden"
+                animate="visible"
+                exit="hidden"
+                transition={{ ...itemTransition, delay: 1 }}
+              />
+            </AnimatePresence>
           </ul>
         </div>
       </div>

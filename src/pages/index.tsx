@@ -11,6 +11,7 @@ import About from '../Component/About'
 import Films from '../Component/Films'
 import Tv from '../Component/Tv'
 
+
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -21,7 +22,6 @@ export default function Home() {
     <Films/>
     <Tv/>
     <Podcast/>
-    
     <Footer/>
 </div>
   )
