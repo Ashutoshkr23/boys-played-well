@@ -11,11 +11,11 @@ function Navbar() {
         <div><h1 className='text-white text-2xl font-extrabold'>BPW</h1></div>
         <div>
           <ul className='flex gap-8 '>
-            <li><a href='#films' className='text-sm tracking-[.25em]'>FILM</a></li>
-            <li><a href='#tv' className='text-sm tracking-[.25em]'>TV</a></li>
-            <li><a href='#podcast' className='text-sm tracking-[.25em]'>PODCAST</a></li>
-            <li><a href='#about' className='text-sm tracking-[.25em]'>ABOUT</a></li>
-            <li><a href='#' className='text-sm tracking-[.25em]'>TEAM</a></li>
+            <li><a href='#films' className='text-sm hover:font-bold tracking-[.25em]'>FILM</a></li>
+            <li><a href='#tv' className='text-sm hover:font-bold tracking-[.25em]'>TV</a></li>
+            <li><a href='#podcast' className='text-sm hover:font-bold tracking-[.25em]'>PODCAST</a></li>
+            <li><a href='#about' className='text-sm hover:font-bold tracking-[.25em]'>ABOUT</a></li>
+            <li><a href='#' className='text-sm hover:font-bold tracking-[.25em]'>TEAM</a></li>
           </ul>
         </div>
       </div>
