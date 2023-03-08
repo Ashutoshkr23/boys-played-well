@@ -13,7 +13,7 @@ function Podcast() {
           img2={"/assets/Images/Podcast/podcast-1.png"}
           title={'Real Talk'}
           date={'Date'}
-          dropShadow={"drop-shadow-blue-1"}
+          dropShadow={"drop-shadow-orange-2"}
         description={'This long form podcast is hosted by Krsna Daswani, a relationship coach/ expert. She interviews wide ranging guests to tease out their professional and personal lives to enlighten, educate and entertain audiences.'}
         />
         <PodcastComponent
