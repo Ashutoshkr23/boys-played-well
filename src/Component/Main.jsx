@@ -24,7 +24,7 @@ function Main() {
             </div>
             <div className='flex-1 h-[1px] bg-white'></div>
           </div>
-          <button className='tracking-[.25em] rounded-md mt-20 w-44 h-11 ' style={{
+          <button className='tracking-[.25em]  mt-20 w-44 h-11 hover:bg-gradient-to-r from-[#ED5266] to-[#FF843F] ' style={{
             border: '1px solid transparent',
             borderRadius: '8px',
             borderImage: 'linear-gradient(to right, #ED5266, #FF843F) 1',
