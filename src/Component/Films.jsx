@@ -18,7 +18,7 @@ function Films() {
         <FilmsComponent
           img1={'/assets/Images/Movie/ChaiGarden-2.png'}
           img2={'/assets/Images/Movie/ChaiGarden-1.png'}
-          dropShadow={'drop-shadow-green-1'}
+          dropShadow={'drop-shadow-orange-1'}
           movieName={'Chai Garden'}
           aboutmovie={'27 Min | Documentary | 2023'}
           movieDescription={'Follows the lives of exploited tea garden workers in West Bengal, India. The film focuses on the struggles of three neighbours. Jeevani, an alcohol vendor, Jyoti, a prohibition proponent and Leos, a tribal leader and minimum wage activist.'}
