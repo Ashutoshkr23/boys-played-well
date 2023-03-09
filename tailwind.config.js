@@ -15,8 +15,8 @@ module.exports = {
         'text': '0 0px 6px rgba(255, 147, 87, 1)',
       },
       fontFamily: {
-        sans : ['Poppins', 'sans-serif'],
-        oswald : ['Oswald', 'sans-serif'],
+        sans: ['var(--poppins-font)', 'sans-serif'],
+        oswald: ['var(--oswald-font)', 'sans-serif'],
       }
       },
     },
