@@ -40,7 +40,8 @@ function Main() {
           <div className='flex w-full mt-20 items-center'>
             <div className='flex-1 h-[1px] bg-white'></div>
             <div>
-              <h1 className='tracking-light text-4xl mx-8'><span className='hover:text-[#FF843F] hover:drop-shadow-text font-oswald'>FILMS </span>|<span className='hover:text-[#FF843F] hover:drop-shadow-text font-oswald'> TV </span>|<span className='hover:text-[#FF843F] hover:drop-shadow-text font-oswald'> PODCAST</span></h1>
+              <a href=""></a>
+              <h1 className='tracking-light text-4xl mx-8'><span className='hover:text-[#FF843F] hover:drop-shadow-text font-oswald'><a href="#films">FILMS</a> </span>|<span className='hover:text-[#FF843F] hover:drop-shadow-text font-oswald'><a href="#tv"> TV </a> </span>|<span className='hover:text-[#FF843F] hover:drop-shadow-text font-oswald'><a href="#podcast"> PODCAST </a></span></h1>
             </div>
             <div className='flex-1 h-[1px] bg-white'></div>
           </div>
