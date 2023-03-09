@@ -13,7 +13,7 @@ function PodcastComponent({img1, img2, title , date , description , dropShadow})
               </div>
               <div className='ml-4 mt-4'>
                 <h1 className='text-2xl text-white ml-2'>{title}</h1>
-                <button className="border h-10 w-[175px] rounded-md text-[#B6B6B6] border-[#ED5266] mt-4  pl-5 text-base flex items-center">
+                <button className="border h-10 w-[175px] rounded-md text-[#B6B6B6] border-[#ED5266] mt-4  pl-4 text-base flex items-center">
                   LISTEN NOW
                   <img src="/assets/Images/Movie/playimg.png" alt="" className="ml-4" />
                 </button>
