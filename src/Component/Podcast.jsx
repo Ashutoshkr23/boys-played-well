@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from 'next/legacy/image'
 import React from 'react'
 import PodcastComponent from '../Component/PodcastComponent'
 
@@ -16,14 +16,10 @@ function Podcast() {
           dropShadow={"drop-shadow-orange-2"}
         description={'This long form podcast is hosted by Krsna Daswani, a relationship coach/ expert. She interviews wide ranging guests to tease out their professional and personal lives to enlighten, educate and entertain audiences.'}
         />
-        <PodcastComponent
-          img1={"/assets/Images/Podcast/podcast-21.png"}
-          img2={"/assets/Images/Podcast/podcast-2.png"}
-          title={'Bombay Bachi'}
-          date={'Date'}
-          dropShadow={"drop-shadow-green-2"}
-          description={'This long form podcast is hosted by Krsna Daswani, a relationship coach/ expert. She interviews wide ranging guests to tease out their professional and personal lives to enlighten, educate and entertain audiences.'}
-        />
+        <div className='mx-32 relative'>
+          <Image layout='fill' src="/assets/Images/TV/TV.png" className='drop-shadow-green-2' alt="" />
+        </div>
+
       </div>
     </div>
   )

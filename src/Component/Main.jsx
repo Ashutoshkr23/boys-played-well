@@ -31,7 +31,7 @@ function Main() {
               <a href="#about" class="nav-link ">ABOUT</a>
             </div>
             <div class="nav-link-container pl-4 py-2   ">
-              <a href="#about" class="nav-link ">MERCHANDISE</a>
+              <a href="#merchandise" class="nav-link ">MERCHANDISE</a>
             </div>
           </div>
           </div>
