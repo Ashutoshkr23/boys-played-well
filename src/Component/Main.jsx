@@ -21,7 +21,7 @@ function Main() {
           <div className='flex w-full mt-20 items-center'>
             <div className='flex-1 h-[1px] bg-white'></div>
             <div>
-              <h1 className='tracking-[.25em] text-4xl mx-8'><span className='hover:text-[#FF843F] hover:drop-shadow-text font-oswald'>FILMS </span>|<span className='hover:text-[#FF843F] hover:drop-shadow-text font-oswald'> TV </span>|<span className='hover:text-[#FF843F] hover:drop-shadow-text font-oswald'> PODCAST</span></h1>
+              <h1 className='tracking-light text-4xl mx-8'><span className='hover:text-[#FF843F] hover:drop-shadow-text font-oswald'>FILMS </span>|<span className='hover:text-[#FF843F] hover:drop-shadow-text font-oswald'> TV </span>|<span className='hover:text-[#FF843F] hover:drop-shadow-text font-oswald'> PODCAST</span></h1>
             </div>
             <div className='flex-1 h-[1px] bg-white'></div>
           </div>
@@ -74,16 +74,16 @@ function Main() {
         <div className='flex flex-col justify-center items-center'>
           <h1 className='font-extrabold text-[120px]  leading-none' >BPW</h1>
           <h6 className='mx-auto mt-2 font-light text-base tracking-[.7em]'>Boys Played Well</h6>
-          <h3 className='text-2xl tracking-[.25em] mt-28 font-oswald'>FILMS</h3>
+          <h3 className='text-2xl tracking-light mt-28 font-oswald'>FILMS</h3>
           <div className='flex w-full mt-10 items-center'>
             <div className='flex-1 h-[1px] bg-white'></div>
             <div>
-              <h1 className='tracking-[.25em] text-2xl mx-8 font-oswald'> TV </h1>
+              <h1 className='tracking-light text-2xl mx-8 font-oswald'> TV </h1>
             </div>
             <div className='flex-1 h-[1px] bg-white'></div>
           </div>
-          <h3 className='text-2xl tracking-[.25em] mt-10 font-oswald'>PODCAST</h3>
-          <button className='tracking-[.25em] rounded-md mt-20 w-40 h-11 ' style={{
+          <h3 className='text-2xl tracking-light mt-10 font-oswald'>PODCAST</h3>
+          <button className='tracking-light rounded-md mt-20 w-40 h-11 ' style={{
             border: '1px solid transparent',
             borderRadius: '8px',
             borderImage: 'linear-gradient(to right, #ED5266, #FF843F) 1',

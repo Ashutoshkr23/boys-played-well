@@ -17,6 +17,9 @@ module.exports = {
       fontFamily: {
         sans: ['var(--poppins-font)', 'sans-serif'],
         oswald: ['var(--oswald-font)', 'sans-serif'],
+      },
+      letterSpacing : {
+        'light': '0.25em',
       }
       },
     },

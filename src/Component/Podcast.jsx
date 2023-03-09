@@ -7,7 +7,7 @@ function Podcast() {
   return (
     <div id='podcast'>
       <div className='flex flex-col my-28 items-center text-white'>
-        <h1 className='text-2xl md:text-[40px] font-oswald '>PODCAST</h1>
+        <h1 className='text-2xl md:text-[40px] font-oswald tracking-light'>PODCAST</h1>
         <PodcastComponent
           img1={"/assets/Images/Podcast/podcast-11.png"}
           img2={"/assets/Images/Podcast/podcast-1.png"}
