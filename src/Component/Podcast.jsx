@@ -16,11 +16,12 @@ function Podcast() {
           dropShadow={"drop-shadow-orange-2"}
         description={'This long form podcast is hosted by Krsna Daswani, a relationship coach/ expert. She interviews wide ranging guests to tease out their professional and personal lives to enlighten, educate and entertain audiences.'}
         />
-        <div className='px-8 lg:px-28 mt-40 w-full'>
-        <div className=' relative w-full h-[350px] '>
+        <div className='px-8 lg:px-28 mt-20 lg:mt-40 w-full'>
+        <div className=' relative w-full h-[350px] hidden md:block'>
           <Image layout='fill' objectFit="cover" src="/assets/Images/TV/TV.png" alt="" />
         </div>
         </div>
+        <Image height={250} width={353} src="/assets/Images/TV/ComingSoon.png" alt="" className='md:hidden' />
 
       </div>
     </div>
