@@ -1,10 +1,11 @@
 import React from 'react'
-import { motion , AnimatePresence } from 'framer-motion';
+import { motion , AnimatePresence, easeInOut } from 'framer-motion';
 
 function Main() {
   const itemVariants = {
-    visible: { scale: 0.8, opacity: 1 },
-    hidden: { scale: 0.6, opacity: 0 },
+    initial: { scale: 1, opacity: 1 , y: 5},
+    animate: { scale: 0.5, opacity: 0, y: 20 },
+    exit: { scale: 0.5, opacity: 0 , y: 40},
   };
 
   const itemTransition = { duration: 0.5 };
@@ -35,34 +36,34 @@ function Main() {
             <AnimatePresence>
               <motion.li
                 key="item1"
-                className="h-3 w-3 border border-white rounded-md mt-8"
+                className="h-3 w-3 border border-white rounded-md mt-8 bg-white"
                 variants={itemVariants}
-                initial="hidden"
-                animate="visible"
-                exit="hidden"
-                transition={{ ...itemTransition, delay: 0 }}
+                initial="initial"
+                animate="animate"
+                exit="exit"
+                transition={{ ...itemTransition, duration:.2, delay: 0 ,repeat: Infinity, repeatDelay:.6 ,  easeInOut }}
               />
             </AnimatePresence>
             <AnimatePresence>
               <motion.li
                 key="item2"
-                className="h-2.5 w-2.5 border border-white border-opacity-60 rounded-[5px] mt-8 "
+                className="h-2.5 w-2.5 bg-white border border-white border-opacity-60 rounded-[5px] mt-8 "
                 variants={itemVariants}
-                initial="hidden"
-                animate="visible"
-                exit="hidden"
-                transition={{ ...itemTransition, delay: 0.5 }}
+                initial="initial"
+                animate="animate"
+                exit="exit"
+                transition={{ ...itemTransition, duration: .2, delay: .2, repeat: Infinity, repeatDelay: .6, easeInOut }}
               />
             </AnimatePresence>
             <AnimatePresence>
               <motion.li
                 key="item3"
-                className="h-2 w-2 border border-white border-opacity-30 rounded-[4px] mt-8"
+                className="h-2 w-2 bg-white border border-white border-opacity-30 rounded-[4px] mt-8"
                 variants={itemVariants}
-                initial="hidden"
-                animate="visible"
-                exit="hidden"
-                transition={{ ...itemTransition, delay: 1 }}
+                initial="initial"
+                animate="animate"
+                exit="exit"
+                transition={{ ...itemTransition, duration: .2, delay: .4, repeat: Infinity, repeatDelay: .6, easeInOut }}
               />
             </AnimatePresence>
           </ul>
