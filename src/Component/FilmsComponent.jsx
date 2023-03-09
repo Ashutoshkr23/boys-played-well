@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 
@@ -10,7 +11,7 @@ function FilmsComponent({ img1, img2, dropShadow, movieName, aboutmovie, movieDe
           <div className='w-3/5'>
             <div className='flex'>
               <div className='h-[199px] w-[188px]'>
-                <img src={img2} alt="" className='h-full w-full rounded-lg' />
+                <Image height={199} width={188} src={img2} alt="" className='rounded-lg' />
               </div>
               <div className='ml-4 mt-4'>
                 <h1 className='text-2xl text-white ml-2'>{movieName}</h1>

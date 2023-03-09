@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 function PodcastComponent({img1, img2, title , date , description , dropShadow}) {
@@ -5,12 +6,12 @@ function PodcastComponent({img1, img2, title , date , description , dropShadow})
     <div >
       <div className='hidden md:block'><div className={`h-[357px] bg-black rounded-lg ${dropShadow} w-[839px] flex  my-20  pl-7`}>
         <div className='h-full w-64 relative ml-auto '>
-          <img className='w-full h-full bg-cover' src={img1} alt="" />
+          <Image height={357} width={256} className='w-full h-full bg-cover' src={img1} alt="" />
           <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-black to-transparent"></div>
         </div>
 
         <div className='absolute w-full flex h-full pt-10'>
-          <img src={img2} className='h-[275px] w-[275px]' alt="" />
+          <Image height={275} width={275} src={img2}  alt="" />
           <div className='flex flex-col ml-8 pr-10'>
             <h1 className='text-2xl'>{title}</h1>
             <h3 className='text-[#ED5266] text-sm mt-2'>{date}</h3>
@@ -19,8 +20,8 @@ function PodcastComponent({img1, img2, title , date , description , dropShadow})
               <img src="/assets/Images/Movie/playimg.png" alt="" className="ml-4" />
             </button>
             <div className='flex gap-4 mt-5'>
-              <a href="#"><img src="/assets/Images/Podcast/Spotify.svg" alt="" className='h-12 w-12' /></a>
-              <a href="#"><img src="/assets/Images/Podcast/ApplePodcast.svg" alt="" className='h-12 w-12' /></a>
+              <a href="#"><Image height={48} width={48} src="/assets/Images/Podcast/Spotify.svg" alt=""  /></a>
+              <a href="#"><Image height={48} width={48} src="/assets/Images/Podcast/ApplePodcast.svg" alt=""  /></a>
             </div>
             <p className='text-sm mt-5 mr-16'>{description}</p>
           </div>
@@ -33,18 +34,18 @@ function PodcastComponent({img1, img2, title , date , description , dropShadow})
         <div className={`bg-black h-[250px] rounded-md  w-[350px] mt-14 mb-10 pt-3 pl-3 ${dropShadow}`}>
           <div className='flex'>
             <div className='h-[111px] w-[111px]'>
-              <img src={img1} alt="" className='h-full w-full rounded-lg' />
+              <Image height={111} width={111} src={img1} alt="" className='h-full w-full rounded-lg' />
             </div>
             <div className='ml-4 '>
               <h1 className='text-base'>{title}</h1>
               <h3 className='text-[#ED5266] text-[10px] mt-0.5'>{date}</h3>
               <button className="border h-8 w-[127px] rounded-md text-[#B6B6B6] border-[#ED5266] mt-2  pl-3 text-xs flex items-center">
                 LISTEN NOW
-                <img src="/assets/Images/Movie/playimg.png" alt="" className="ml-4 h-5 w-5" />
+                <Image height={20} width={20} src="/assets/Images/Movie/playimg.png" alt="" className="ml-4 h-5 w-5" />
               </button>
               <div className='flex gap-2.5 mt-3'>
-                <a href="#"><img src="/assets/Images/Podcast/Spotify.svg" alt="" className='h-5 w-5' /></a>
-                <a href="#"><img src="/assets/Images/Podcast/ApplePodcast.svg" alt="" className='h-5 w-5' /></a>
+                <a href="#"><Image height={20} width={20} src="/assets/Images/Podcast/Spotify.svg" alt="" className='h-5 w-5' /></a>
+                <a href="#"><Image height={20} width={20} src="/assets/Images/Podcast/ApplePodcast.svg" alt="" className='h-5 w-5' /></a>
               </div>
             </div>
           </div>
