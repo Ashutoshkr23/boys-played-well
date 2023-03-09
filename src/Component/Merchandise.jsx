@@ -17,7 +17,9 @@ function Merchandise() {
           <div className='md:hidden'>
               <div className=' flex flex-col my-28 text-white items-center '>
                   <h1 className='text-2xl mb-20 font-oswald tracking-light'>MERCHANDISE</h1>
+                  <div className="drop-shadow-red-1 " >
                   <Image height={250} width={353} className="drop-shadow-red-1 " src="/assets/Images/TV/ComingSoon.png" alt="" />
+                  </div>
               </div>
           </div>
 

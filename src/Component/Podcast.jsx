@@ -22,7 +22,9 @@ function Podcast() {
         </div>
         </div>
         <div className='md:hidden'>
-        <Image height={250} width={353} className="drop-shadow-green-1" src="/assets/Images/TV/ComingSoon.png" alt=""  />
+          <div className="drop-shadow-green-1">
+        <Image height={250} width={353}  src="/assets/Images/TV/ComingSoon.png" alt=""  />
+          </div>
         </div>
       </div>
     </div>
