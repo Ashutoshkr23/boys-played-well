@@ -7,7 +7,7 @@ function FilmsComponent({ img1, img2, dropShadow, movieName, aboutmovie, movieDe
     <div >
       {/*Laptop View*/}
       <div className='hidden md:block mx-28 mt-28'><div className={`w-full h-[357px] relative  mt-10 hover:scale-110 ease-in-out duration-300  rounded-lg bg-right bg-no-repeat ${dropShadow}`} style={{ maxWidth: '1180px', backgroundImage: `url('${img1}')` }}>
-        <div className="relative pl-7 lg:pl-10 pt-7  lg:pt-10 rounded-lg bg-gradient-to-r from-black via-black to-transparent z-10 h-full flex flex-col ">
+        <div className="relative pl-7  pt-7 rounded-lg bg-gradient-to-r from-black via-black to-transparent z-10 h-full flex flex-col ">
           <div className='w-3/5'>
             <div className='flex'>
               <div className='h-[199px] w-[188px]'>

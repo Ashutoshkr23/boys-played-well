@@ -6,11 +6,11 @@ function PodcastComponent({img1, img2, title , date , description , dropShadow})
     <div >
       <div className='hidden md:block'><div className={`h-[357px] bg-black rounded-lg ${dropShadow} w-[839px] flex  my-20  pl-7`}>
         <div className='h-full w-64 relative ml-auto '>
-          <Image height={357} width={256} className='w-full h-full bg-cover' src={img1} alt="" />
+          <Image height={329} width={275} className='w-full h-full bg-cover' src={img1} alt="" />
           <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-black to-transparent"></div>
         </div>
 
-        <div className='absolute w-full flex h-full pt-10'>
+        <div className='absolute w-full flex h-full pt-7'>
           <Image height={275} width={275} src={img2}  alt="" />
           <div className='flex flex-col ml-8 pr-10'>
             <h1 className='text-2xl'>{title}</h1>
