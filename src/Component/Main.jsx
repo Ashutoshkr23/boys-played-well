@@ -16,7 +16,7 @@ function Main() {
     <div className='relative  bg-black text-white mt-10 pb-10'>
       {/*For Tablets And Laptop*/}
       <div className='hidden md:block'>
-        <div className='mt-40 fixed'>
+        <div className='mt-40 fixed hidden lg:block'>
           <div class="flex flex-col bg-transparent font-oswald tracking-light text-white w-36">
             <div class="nav-link-container pl-4 py-2  border-b-2 border-white ">
               <a href="#films" class="nav-link ">FILMS</a>

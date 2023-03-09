@@ -4,30 +4,32 @@ import React from 'react'
 function PodcastComponent({img1, img2, title , date , description , dropShadow}) {
   return (
     <div >
-      <div className='hidden md:block'><div className={`h-[357px] bg-black rounded-lg ${dropShadow} w-[839px] flex  my-20  pl-7`}>
-        <div className='h-full w-64 relative ml-auto '>
-          <Image height={329} width={275} className='w-full h-full bg-cover' src={img1} alt="" />
-          <div class="absolute top-0 left-0 w-full h-full bg-gradient-to-r from-black to-transparent"></div>
-        </div>
-
-        <div className='absolute w-full flex h-full pt-7'>
-          <Image height={275} width={275} src={img2}  alt="" />
-          <div className='flex flex-col ml-8 pr-10'>
-            <h1 className='text-2xl'>{title}</h1>
-            <h3 className='text-[#ED5266] text-sm mt-2'>{date}</h3>
-            <button className="border h-10 w-[175px] rounded-md text-[#B6B6B6] border-[#ED5266] mt-4  pl-5 text-base flex items-center">
-              LISTEN NOW
-              <img src="/assets/Images/Movie/playimg.png" alt="" className="ml-4" />
-            </button>
-            <div className='flex gap-4 mt-5'>
-              <a href="#"><Image height={48} width={48} src="/assets/Images/Podcast/Spotify.svg" alt=""  /></a>
-              <a href="#"><Image height={48} width={48} src="/assets/Images/Podcast/ApplePodcast.svg" alt=""  /></a>
+      <div className='hidden md:block mx-8 lg:mx-28 mt-28'><div className={`w-full h-[357px] relative  mt-10 lg:hover:scale-110 ease-in-out duration-300  rounded-lg bg-right bg-no-repeat ${dropShadow}`} style={{ maxWidth: '1180px', backgroundImage: `url('${img1}')` }}>
+        <div className="relative pl-7  pt-7 rounded-lg bg-gradient-to-r from-black via-black to-transparent z-10 h-full flex flex-col ">
+          <div className='w-4/5 lg:w-3/5'>
+            <div className='flex'>
+              <div className='h-[199px] w-[188px]'>
+                <Image height={199} width={188} src={img2} alt="" className='rounded-lg' />
+              </div>
+              <div className='ml-4 mt-4'>
+                <h1 className='text-2xl text-white ml-2'>{title}</h1>
+                <button className="border h-10 w-[175px] rounded-md text-[#B6B6B6] border-[#ED5266] mt-4  pl-5 text-base flex items-center">
+                  LISTEN NOW
+                  <img src="/assets/Images/Movie/playimg.png" alt="" className="ml-4" />
+                </button>
+                <div className='flex gap-4 mt-5'>
+                  <a href="#"><Image height={48} width={48} src="/assets/Images/Podcast/Spotify.svg" alt="" /></a>
+                  <a href="#"><Image height={48} width={48} src="/assets/Images/Podcast/ApplePodcast.svg" alt="" /></a>
+                </div>
+              </div>
             </div>
-            <p className='text-sm mt-5 mr-16'>{description}</p>
+            <div className='  lg:pr-16'>
+              <p className='text-sm mt-5 mb-6 lg:mb-10 text-white'> {description}
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-      </div>
+      </div></div>
 
       {/* Mobile View */}
       <div className='md:hidden'>
