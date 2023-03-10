@@ -18,19 +18,19 @@ function Main() {
       <div className='hidden md:block'>
         <div className='mt-40 fixed hidden lg:block'>
           <div className="flex flex-col bg-transparent font-oswald tracking-light text-white w-36">
-            <div className="nav-link-container pl-4 py-2  border-b-2 border-white ">
+            <div className="nav-link-container opacity-70 hover:opacity-100 pl-4 py-2  border-b-2 border-white ">
               <a href="#films" className="nav-link ">FILMS</a>
             </div>
-            <div className="nav-link-container pl-4 py-2  border-b-2 border-white">
+            <div className="nav-link-container opacity-70 hover:opacity-100 pl-4 py-2  border-b-2 border-white">
               <a href="#tv" className="nav-link ">TV</a>
             </div>
-            <div className="nav-link-container pl-4 py-2  border-b-2 border-white ">
+            <div className="nav-link-container opacity-70 hover:opacity-100 pl-4 py-2  border-b-2 border-white ">
               <a href="#podcast" className="nav-link ">PODCAST</a>
             </div>
-            <div className="nav-link-container pl-4 py-2  border-b-2 border-white ">
+            <div className="nav-link-container opacity-70 hover:opacity-100 pl-4 py-2  border-b-2 border-white ">
               <a href="#about" className="nav-link ">ABOUT</a>
             </div>
-            <div className="nav-link-container pl-4 py-2   ">
+            <div className="nav-link-container opacity-70 hover:opacity-100 pl-4 py-2   ">
               <a href="#merchandise" className="nav-link ">MERCHANDISE</a>
             </div>
           </div>
