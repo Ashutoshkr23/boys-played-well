@@ -40,7 +40,7 @@ function Navbar() {
                 </div>
               </button>
               {isOpen && (
-                <div className="absolute w-full h-screen bg-black  border-white border-8 bg-dark rounded-md shadow-lg z-10">
+                <div className="absolute w-full h-screen bg-black  border-white border-8 bg-dark shadow-lg z-10">
                   <div className='flex flex-col h-full  content-between'>
                     <div className="flex flex-col mx-auto mt-20 text-center font-oswald tracking-light text-white w-10/12 z-20">
                       <div className="nav-link-container  py-2  border-b-2 border-white ">
