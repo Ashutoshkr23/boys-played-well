@@ -3,6 +3,8 @@ import FilmsComponent from '../Component/FilmsComponent'
 
 
 function Films() {
+
+  
   return (
     <div id='films'>
       <div className='flex flex-col my-28 items-center text-white'>

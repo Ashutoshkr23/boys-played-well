@@ -12,7 +12,7 @@ import About from '../Component/About'
 import Films from '../Component/Films'
 import Tv from '../Component/Tv'
 import Landing from '../Component/Landing'
-import { motion } from 'framer-motion'
+import { motion, AnimatePresence } from 'framer-motion'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -33,7 +33,7 @@ export default function Home() {
     animate: {
       opacity: 1,
       transition: {
-        duration: 2
+        duration: 4
       }
     }
   }
@@ -41,7 +41,8 @@ export default function Home() {
   return (
 <div>
     <Landing/>
-      <motion.div 
+      <AnimatePresence>
+        <motion.div 
         variants={fadeIn} initial="initial" whileInView="animate" viewport={{ once: true }}
         transition={{ delay: 7 }}>
         {firstComponent && 
@@ -54,6 +55,8 @@ export default function Home() {
         <Merchandise />
         <Footer />
         </div> }</motion.div>
+      </AnimatePresence>
+      
 
 </div>
   )
