@@ -47,7 +47,7 @@ function PodcastComponent({img1, img2, title , date , description , dropShadow})
 
       {/* Mobile View */}
       <div className='md:hidden'>
-        <div className={`bg-black h-[250px] rounded-md  w-[350px] mt-14 mb-10 pt-3 pl-3 ${dropShadow}`}>
+        <motion.div variants={fadeIn} initial="initial" whileInView="animate" viewport={{ once: true }} className={`bg-black h-[250px] rounded-md  w-[350px] mt-14 mb-10 pt-3 pl-3 ${dropShadow}`}>
           <div className='flex'>
             <div className='h-[111px] w-[111px]'>
               <Image height={111} width={111} src={img1} alt="" className='h-full w-full rounded-lg' />
@@ -67,7 +67,7 @@ function PodcastComponent({img1, img2, title , date , description , dropShadow})
           </div>
           <p className='text-[10px] mt-8 leading-relaxed mb-6 mr-3 text-white'> {description}
           </p>
-        </div>
+        </motion.div>
       </div>
       
     </div>

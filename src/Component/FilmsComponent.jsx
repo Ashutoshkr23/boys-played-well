@@ -47,7 +47,7 @@ function FilmsComponent({ img1, img2, dropShadow, movieName, aboutmovie, movieDe
       {/* Mobile View */}
 
       <div className='md:hidden'>
-        <div className={`bg-black h-[250px] rounded-md  w-[350px] mt-14 mb-10 pt-3 pl-3 ${dropShadow}`}>
+        <motion.div variants={fadeIn} initial="initial" whileInView="animate" viewport={{ once: true }} className={`bg-black h-[250px] rounded-md  w-[350px] mt-14 mb-10 pt-3 pl-3 ${dropShadow}`}>
           <div className='flex'>
             <div className='h-[118px] w-[111px]'>
               <img src={img2} alt="" className='h-full w-full rounded-lg' />
@@ -63,7 +63,7 @@ function FilmsComponent({ img1, img2, dropShadow, movieName, aboutmovie, movieDe
           </div>
           <p className='text-[10px] mt-5 mb-6 leading-normal mr-3 text-white'> {movieDescription}
           </p>
-        </div>
+        </motion.div>
       </div>
     </div>
   )
