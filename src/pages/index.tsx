@@ -22,6 +22,7 @@ export default function Home() {
 
   return (
 <div>
+  <Navbar/>
     <Main/>
     <Films/>
     <Tv/>

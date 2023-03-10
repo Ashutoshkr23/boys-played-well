@@ -92,7 +92,7 @@ function Main() {
       {/*For Mobiles*/}
       <div className='md:hidden'>
         <div className='flex flex-col justify-center items-center'>
-          <h1 className='font-extrabold text-[120px]  leading-none' >BPW</h1>
+          <h1 className='font-extrabold text-[120px]  leading-none mt-16' >BPW</h1>
           <h6 className='mx-auto mt-2 font-light text-base tracking-[.7em]'>Boys Played Well</h6>
           <h3 className='text-2xl tracking-light mt-28 font-oswald'>FILMS</h3>
           <div className='flex w-full mt-10 items-center'>
