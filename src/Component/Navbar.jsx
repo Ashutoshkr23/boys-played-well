@@ -20,7 +20,7 @@ function Navbar() {
     <div className='text-white'>
       <div className='lg:hidden '>
         <nav className="bg-dark fixed w-full z-40 top-0 left-0">
-          <div className="container  flex justify-end  mx-auto">
+          <div className=" w-full flex justify-end">
             <div className="flex justify-end ">
               <button
                 onClick={() => setIsOpen(!isOpen)}
