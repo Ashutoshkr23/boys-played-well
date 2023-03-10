@@ -12,6 +12,7 @@ import About from '../Component/About'
 import Films from '../Component/Films'
 import Tv from '../Component/Tv'
 import Landing from '../Component/Landing'
+import { motion } from 'framer-motion'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -22,19 +23,38 @@ export default function Home() {
   useEffect(() => {
     setInterval(() => {
       setfirstComponent(true);
-    }, 9000);
+    }, 7000);
   }, []);
+
+  const fadeIn = {
+    initial: {
+      opacity: 0
+    },
+    animate: {
+      opacity: 1,
+      transition: {
+        duration: 2
+      }
+    }
+  }
 
   return (
 <div>
     <Landing/>
-    <Navbar/>
-    <Main/>
-    <Films/>
-    <Tv/>
-    <Podcast/>
-    <Merchandise/>
-    <Footer/>
+      <motion.div 
+        variants={fadeIn} initial="initial" whileInView="animate" viewport={{ once: true }}
+        transition={{ delay: 7 }}>
+        {firstComponent && 
+        <div>    
+        <Navbar />
+        <Main />
+        <Films />
+        <Tv />
+        <Podcast />
+        <Merchandise />
+        <Footer />
+        </div> }</motion.div>
+
 </div>
   )
 }
