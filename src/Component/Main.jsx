@@ -36,7 +36,7 @@ function Main() {
           </div>
           </div>
         <div className='flex flex-col justify-center items-center'>
-          <Image width={425} height={275}  src="/assets/Images/Main/logo.png" alt="logo"  />
+          <Image width={425} height={275} className="mt-32"  src="/assets/Images/Main/logo.png" alt="logo"  />
           <div className='flex w-full mt-20 items-center'>
             <div className='flex-1 h-[1px] bg-white'></div>
             <div>

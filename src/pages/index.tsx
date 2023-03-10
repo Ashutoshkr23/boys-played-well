@@ -18,11 +18,17 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   const [firstComponent, setfirstComponent] = useState(false);
-  const [secondComponent, setsecondComponent] = useState(false);
+
+  useEffect(() => {
+    setInterval(() => {
+      setfirstComponent(true);
+    }, 9000);
+  }, []);
 
   return (
 <div>
-  <Navbar/>
+    <Landing/>
+    <Navbar/>
     <Main/>
     <Films/>
     <Tv/>
