@@ -53,7 +53,7 @@ function Navbar() {
                         <a href="#podcast" className="nav-link ">PODCAST</a>
                       </div>
                       <div onClick={() => setIsOpen(!isOpen)} className="nav-link-container py-4  border-b-2 border-white ">
-                        <a href="#about" className="nav-link ">MERCHANDISE</a>
+                        <a href="#merchandise" className="nav-link ">MERCHANDISE</a>
                       </div>
                       <div onClick={() => setIsOpen(!isOpen)} className="nav-link-container  border-b-2 border-white py-4   ">
                         <a href="#merchandise" className="nav-link ">ABOUT</a>
