@@ -43,20 +43,20 @@ function Navbar() {
                 <div className="absolute w-full h-screen bg-black  border-white border-8 bg-dark shadow-lg z-10">
                   <div className='flex flex-col h-full  content-between'>
                     <div className="flex flex-col mx-auto mt-20 text-center font-oswald tracking-light text-white w-10/12 z-20">
-                      <div className="nav-link-container  py-2  border-b-2 border-white ">
+                      <div onClick={() => setIsOpen(!isOpen)} className="nav-link-container  py-2  border-b-2 border-white ">
                         <a href="#films" className="nav-link ">FILMS</a>
                       </div>
-                      <div className="nav-link-container py-4  border-b-2 border-white">
+                      <div onClick={() => setIsOpen(!isOpen)} className="nav-link-container py-4  border-b-2 border-white">
                         <a href="#tv" className="nav-link ">TV</a>
                       </div>
-                      <div className="nav-link-container py-4  border-b-2 border-white ">
+                      <div onClick={() => setIsOpen(!isOpen)} className="nav-link-container py-4  border-b-2 border-white ">
                         <a href="#podcast" className="nav-link ">PODCAST</a>
                       </div>
-                      <div className="nav-link-container py-4  border-b-2 border-white ">
-                        <a href="#about" className="nav-link ">ABOUT</a>
+                      <div onClick={() => setIsOpen(!isOpen)} className="nav-link-container py-4  border-b-2 border-white ">
+                        <a href="#about" className="nav-link ">MERCHANDISE</a>
                       </div>
-                      <div className="nav-link-container  border-b-2 border-white py-4   ">
-                        <a href="#merchandise" className="nav-link ">MERCHANDISE</a>
+                      <div onClick={() => setIsOpen(!isOpen)} className="nav-link-container  border-b-2 border-white py-4   ">
+                        <a href="#merchandise" className="nav-link ">ABOUT</a>
                       </div>
                     </div>
                     <div className="text-center mt-auto pb-6 text-white text-base opacity-80 ">© {date} BY BOYS PLAYED WELL</div>
