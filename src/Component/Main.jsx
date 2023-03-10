@@ -17,21 +17,21 @@ function Main() {
       {/*For Tablets And Laptop*/}
       <div className='hidden md:block'>
         <div className='mt-40 fixed hidden lg:block'>
-          <div class="flex flex-col bg-transparent font-oswald tracking-light text-white w-36">
-            <div class="nav-link-container pl-4 py-2  border-b-2 border-white ">
-              <a href="#films" class="nav-link ">FILMS</a>
+          <div className="flex flex-col bg-transparent font-oswald tracking-light text-white w-36">
+            <div className="nav-link-container pl-4 py-2  border-b-2 border-white ">
+              <a href="#films" className="nav-link ">FILMS</a>
             </div>
-            <div class="nav-link-container pl-4 py-2  border-b-2 border-white">
-              <a href="#tv" class="nav-link ">TV</a>
+            <div className="nav-link-container pl-4 py-2  border-b-2 border-white">
+              <a href="#tv" className="nav-link ">TV</a>
             </div>
-            <div class="nav-link-container pl-4 py-2  border-b-2 border-white ">
-              <a href="#podcast" class="nav-link ">PODCAST</a>
+            <div className="nav-link-container pl-4 py-2  border-b-2 border-white ">
+              <a href="#podcast" className="nav-link ">PODCAST</a>
             </div>
-            <div class="nav-link-container pl-4 py-2  border-b-2 border-white ">
-              <a href="#about" class="nav-link ">ABOUT</a>
+            <div className="nav-link-container pl-4 py-2  border-b-2 border-white ">
+              <a href="#about" className="nav-link ">ABOUT</a>
             </div>
-            <div class="nav-link-container pl-4 py-2   ">
-              <a href="#merchandise" class="nav-link ">MERCHANDISE</a>
+            <div className="nav-link-container pl-4 py-2   ">
+              <a href="#merchandise" className="nav-link ">MERCHANDISE</a>
             </div>
           </div>
           </div>
