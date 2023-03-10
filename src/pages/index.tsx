@@ -42,22 +42,18 @@ export default function Home() {
 <div>
     <Landing/>
       <AnimatePresence>
-        <motion.div 
-        variants={fadeIn} initial="initial" whileInView="animate" viewport={{ once: true }}
-        transition={{ delay: 7 }}>
-        {firstComponent && 
-        <div>    
-        <Navbar />
-        <Main />
-        <Films />
-        <Tv />
-        <Podcast />
-        <Merchandise />
-        <Footer />
-        </div> }</motion.div>
+        {firstComponent &&
+          <motion.div
+            variants={fadeIn} initial="initial" whileInView="animate" viewport={{ once: true }}>
+            <Navbar />
+            <Main />
+            <Films />
+            <Tv />
+            <Podcast />
+            <Merchandise />
+            <Footer />
+          </motion.div>}
       </AnimatePresence>
-      
-
 </div>
   )
 }
