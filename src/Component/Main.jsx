@@ -16,22 +16,22 @@ function Main() {
     <div className='relative  bg-black text-white mt-10 pb-10'>
       {/*For Tablets And Laptop*/}
       <div className='hidden md:block'>
-        <div className='mt-40 fixed hidden lg:block'>
+        <div className='mt-40 fixed z-50 hidden lg:block'>
           <div className="flex flex-col bg-transparent font-oswald tracking-light text-white w-36">
-            <div className="nav-link-container opacity-70 hover:opacity-100 pl-4 py-2  border-b-2 border-white ">
+            <div className="nav-link-container text-[#808080] hover:text-[#FF843F] border-[#808080] hover:border-[#FF843F] py-2 pl-4    border-b-2">
               <a href="#films" className="nav-link ">FILMS</a>
             </div>
-            <div className="nav-link-container opacity-70 hover:opacity-100 pl-4 py-2  border-b-2 border-white">
+            <div className="nav-link-container  pl-4 py-2 text-[#808080] hover:text-[#FF843F] border-[#808080] hover:border-[#FF843F] border-b-2 ">
               <a href="#tv" className="nav-link ">TV</a>
             </div>
-            <div className="nav-link-container opacity-70 hover:opacity-100 pl-4 py-2  border-b-2 border-white ">
+            <div className="nav-link-container  pl-4 py-2 text-[#808080] hover:text-[#FF843F] border-[#808080] hover:border-[#FF843F] border-b-2  ">
               <a href="#podcast" className="nav-link ">PODCAST</a>
             </div>
-            <div className="nav-link-container opacity-70 hover:opacity-100 pl-4 py-2  border-b-2 border-white ">
-              <a href="#about" className="nav-link ">ABOUT</a>
+            <div className="nav-link-container  pl-4 py-2 text-[#808080] hover:text-[#FF843F] border-[#808080] hover:border-[#FF843F] border-b-2  ">
+              <a href="#about" className="nav-link ">MERCHANDISE</a>
             </div>
-            <div className="nav-link-container opacity-70 hover:opacity-100 pl-4 py-2   ">
-              <a href="#merchandise" className="nav-link ">MERCHANDISE</a>
+            <div className="nav-link-container  pl-4 py-2 text-[#808080] hover:text-[#FF843F] border-[#808080] hover:border-[#FF843F]  border-b-2">
+              <a href="#merchandise" className="nav-link ">ABOUT</a>
             </div>
           </div>
           </div>
