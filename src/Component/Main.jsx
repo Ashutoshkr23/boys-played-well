@@ -30,7 +30,7 @@ function Main() {
             <div className="nav-link-container  pl-4 py-2 text-[#808080] hover:text-[#FF843F] border-[#808080] hover:border-[#FF843F] border-b-2  ">
               <a href="#merchandise" className="nav-link ">MERCHANDISE</a>
             </div>
-            <div className="nav-link-container  pl-4 py-2 text-[#808080] hover:text-[#FF843F] border-[#808080] hover:border-[#FF843F]  border-b-2">
+            <div className="nav-link-container  pl-4 py-2 text-[#808080] hover:text-[#FF843F]  ">
               <a href="#about" className="nav-link ">ABOUT</a>
             </div>
           </div>
