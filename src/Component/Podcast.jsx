@@ -17,7 +17,7 @@ function Podcast() {
         description={'This long form podcast is hosted by Krsna Daswani, a relationship coach/ expert. She interviews wide ranging guests to tease out their professional and personal lives to enlighten, educate and entertain audiences.'}
         />
         <div className='px-8 lg:px-28 mt-20 lg:mt-40 w-full'>
-          <div className=' relative w-full h-[350px] hidden drop-shadow-green-1 md:block' style={{ maxWidth: '1180px' }}>
+          <div className=' relative w-full mx-auto h-[350px] hidden drop-shadow-green-1 md:block' style={{ maxWidth: '1180px' }}>
           <Image layout='fill' objectFit="cover" src="/assets/Images/TV/TV.png" alt="" />
         </div>
         </div>

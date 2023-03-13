@@ -16,9 +16,12 @@ function About() {
         }
     }
   return (
-      <div id='about'>
-          <div className='hidden md:block mx-8 lg:mx-28 mt-28'>
-              <motion.div variants={fadeIn} initial="initial" whileInView="animate" viewport={{ once: true }} className={`w-full  flex relative  mt-10 lg:hover:scale-110 ease-in-out duration-300 bg-black rounded-lg bg-right drop-shadow-About text-white bg-no-repeat py-7 px-7`} style={{ maxWidth: '1180px' }}>
+      <div id='about '>
+          
+              <div className='flex flex-col my-28 items-center text-white'>
+              <h1 className='text-2xl font-oswald md:text-[40px] tracking-light'>ABOUT</h1>
+              <div className='hidden md:block mx-8 lg:mx-28 mt-28 '>
+              <motion.div variants={fadeIn} initial="initial" whileInView="animate" viewport={{ once: true }} className={`w-full  flex relative  mt-10 lg:hover:scale-110 ease-in-out mx-auto duration-300 bg-black rounded-lg bg-right drop-shadow-About text-white bg-no-repeat py-7 px-7`} style={{ maxWidth: '1180px' }}>
             <div className='w-[284px] '>
                 <Image width={284} height={301} src="/assets/Images/About/About.png" alt="" />
             </div>
@@ -29,6 +32,7 @@ function About() {
                           
             </div>
           </motion.div>
+          </div>
           </div>
           <div className='md:hidden'>
               <motion.div variants={fadeIn} initial="initial" whileInView="animate" viewport={{ once: true }} className={`bg-black h-[250px] rounded-md  w-[350px] mt-14 mb-10 mx-auto pt-3 text-white pl-3 drop-shadow-About`}>
