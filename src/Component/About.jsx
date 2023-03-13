@@ -1,45 +1,49 @@
 import Image from 'next/image'
 import React from 'react'
+import { motion } from "framer-motion";
 
 function About() {
+
+    const fadeIn = {
+        initial: {
+            opacity: 0
+        },
+        animate: {
+            opacity: 1,
+            transition: {
+                duration: 4
+            }
+        }
+    }
   return (
       <div id='about'>
-          <div className='hidden md:block py-20 px-8 lg:px-40 bg-black text-white '>
-              <h1 className='text-5xl'>About</h1>
-              <div className='mx-2 lg:mx-10 my-20 bg-white hover:scale-110 ease-in-out duration-300 h-80 lg:h-96 rounded-lg'>
-                  <div className='flex'>
-                      <div className='h-64 w-64 lg:h-80 lg:w-80 ml-3 lg:ml-7 mt-3 lg:mt-7 rounded-lg'>
-                          <Image src="/assets/Images/Podcast/podcast.png" alt="" className='h-full w-full rounded-lg' />
-                      </div>
-                      <div className='flex-1 mx-6'>
-                          <h1 className='text-black text-3xl lg:text-4xl mt-4 lg:mt-12'>About Us</h1>
-                          <p className='text-black text-lg leading-8 mt-4'>This long form podcast is hosted by Krsna Daswani, a relationship coach/ expert. She interviews wide ranging guests to tease out their professional and personal lives to enlighten, educate and entertain audiences.</p>
-                          <div className='flex gap-4 mt-2'>
-                              <a href="#"><Image src="/assets/Images/About/Fb.png" alt="" className='h-12 w-12' /></a>
-                              <a href="#"><Image src="/assets/Images/About/Instagram.png" alt="" className='h-12 w-12' /></a>   
-                          </div>
-                      </div>
-                  </div>
-              </div>
+          <div className='hidden md:block mx-8 lg:mx-28 mt-28'>
+              <motion.div variants={fadeIn} initial="initial" whileInView="animate" viewport={{ once: true }} className={`w-full  flex relative  mt-10 lg:hover:scale-110 ease-in-out duration-300 bg-black rounded-lg bg-right drop-shadow-About text-white bg-no-repeat py-7 px-7`} style={{ maxWidth: '1180px' }}>
+            <div className='w-[284px] '>
+                <Image width={284} height={301} src="/assets/Images/About/About.png" alt="" />
+            </div>
+            <div className='w-3/5 ml-16 my-auto'>
+                      <h1 className='text-xl font-oswald '>FOUNDER : Tanishq Kaura</h1>
+                      <p className='text-sm mt-8'>Boys Played Well is a production company focused on non-fiction content.
+                      Founded by Tanishq Kaura, a New York University-Tisch School of the Arts graduate.</p>
+                          
+            </div>
+          </motion.div>
           </div>
-          <div className='md:hidden bg-black '>
-              <h1 className='py-10 pl-6 text-white text-3xl'>About</h1>
-              <div className='bg-white mx-4 text-black rounded-lg'>
-                  <div className='flex  '>
-                      <Image src="/assets/Images/Podcast/podcast.png" alt="" className=' w-2/5 rounded-lg mt-4 ml-4' />
-                      <div className='pl-4 pt-4'>
-                          <h1 className='text-2xl  mt-2 ml-2'>About Us</h1>
-                          <div className='flex gap-4 mt-2'>
-                              <a href="#"><Image src="/assets/Images/About/Fb.png" alt="" className='h-12 w-12' /></a>
-                              <a href="#"><Image src="/assets/Images/About/Instagram.png" alt="" className='h-12 w-12' /></a>
-                          </div>
+          <div className='md:hidden'>
+              <motion.div variants={fadeIn} initial="initial" whileInView="animate" viewport={{ once: true }} className={`bg-black h-[250px] rounded-md  w-[350px] mt-14 mb-10 mx-auto pt-3 text-white pl-3 drop-shadow-About`}>
+                <div className='flex flex-col'>
+                <div className='flex'>
+                      <div className=' '>
+                          <Image width={140} height={150} src="/assets/Images/About/About.png" alt="" />
                       </div>
-                  </div>
-                  <div >
-                      <p className='text-sm mt-6 pl-4 pr-4 pb-4'> Follows a journalist and a politician. The former to elicit the ground reality and sentiment for ‘azadi’ in South Kashmir and the latter to highlight the campaign for Indian democracy in a conflict torn state. The film focuses on the 2019 parliamentary election campaign and the historic events that followed.
-                      </p>
-                  </div>
-              </div>
+                      <h1 className='text-base font-oswald ml-4 my-auto'>FOUNDER : Tanishq Kaura</h1>
+                </div>
+                      <p className='text-[10px] mt-4'>Boys Played Well is a production company focused on non-fiction content.
+                          Founded by Tanishq Kaura, a New York University-Tisch School of the Arts graduate.</p>
+                </div>
+
+              </motion.div>
 
           </div>
     </div>

@@ -3,7 +3,7 @@ import React from 'react'
 import { motion } from "framer-motion";
 
 
-function FilmsComponent({ img1, img2, dropShadow, movieName, aboutmovie, movieDescription }) {
+function FilmsComponent({ img1, img2, dropShadow, movieName, aboutmovie, movieDescription , }) {
 
   const fadeIn = {
     initial: {

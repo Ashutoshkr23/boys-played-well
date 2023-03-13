@@ -14,6 +14,8 @@ module.exports = {
         'green-2': '0 0px 30px rgba(76, 137, 104, 0.5)',
         'red-1': '0 0px 30px rgba(137, 76, 76, 0.5)',
         'text': '0 0px 6px rgba(255, 147, 87, 1)',
+        'About': '0 0px 30px rgba(101, 204, 227, .5)',
+
       },
       fontFamily: {
         sans: ['var(--poppins-font)', 'sans-serif'],

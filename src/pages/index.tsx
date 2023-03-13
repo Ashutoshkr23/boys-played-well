@@ -45,12 +45,13 @@ export default function Home() {
         {firstComponent &&
           <motion.div
             variants={fadeIn} initial="initial" whileInView="animate" viewport={{ once: true }}>
-            <Navbar />
+            <Navbar  />
             <Main />
             <Films />
             <Tv />
             <Podcast />
             <Merchandise />
+            <About />
             <Footer />
           </motion.div>}
       </AnimatePresence>
