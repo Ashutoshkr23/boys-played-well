@@ -14,8 +14,8 @@ function Landing() {
     }, [])
   return (
       <div style={{ display: showVideo ? 'block' : 'none' }}>
-      <div className='h-screen w-full text-white pb-10'>
-              <img  src="/assets/Images/Main/Logo.gif" className='h-full mx-auto w-3/5 object-cover'></img>
+      <div className='h-screen w-full lg:w-3/5 mx-auto text-white pb-10'>
+              <img  src="/assets/Images/Main/Logo.gif" className=' object-cover'></img>
       </div>
     </div>
   )
