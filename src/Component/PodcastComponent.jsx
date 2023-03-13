@@ -17,8 +17,8 @@ function PodcastComponent({img1, img2, title , date , description , dropShadow})
   }
   return (
     <div >
-      <motion.div variants={fadeIn} initial="initial" whileInView="animate" transition={{delay: 7}} viewport={{ once: true }} className='hidden md:block mx-8 lg:mx-28 mt-28'><div className={`w-full h-[357px] relative  mt-10 lg:hover:scale-110 ease-in-out duration-300  rounded-lg bg-right bg-no-repeat ${dropShadow}`} style={{ maxWidth: '1180px', backgroundImage: `url('${img1}')` }}>
-        <div className="relative pl-7  pt-7 rounded-lg bg-gradient-to-r from-black via-black to-transparent z-10 h-full flex flex-col ">
+      <motion.div variants={fadeIn} initial="initial" whileInView="animate" transition={{delay: 7}} viewport={{ once: true }} className='hidden md:block mx-8 lg:mx-28 mt-28'><div className={`w-full h-[357px] relative bg-black mt-10 lg:hover:scale-110 ease-in-out duration-300  rounded-lg bg-right bg-no-repeat ${dropShadow}`} style={{ maxWidth: '1180px', backgroundImage: `url('${img1}')` }}>
+        <div className="relative pl-7  pt-7 rounded-lg  z-10 h-full flex flex-col ">
           <div className='w-4/5 lg:w-3/5'>
             <div className='flex'>
               <div className='h-[199px] w-[188px]'>
@@ -44,6 +44,9 @@ function PodcastComponent({img1, img2, title , date , description , dropShadow})
         </div>
       </div>
       </motion.div>
+
+
+     
 
       {/* Mobile View */}
       <div className='md:hidden'>
