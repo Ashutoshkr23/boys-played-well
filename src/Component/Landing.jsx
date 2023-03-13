@@ -1,5 +1,6 @@
 import React ,{useEffect , useState} from 'react'
 import ReactPlayer from 'react-player';
+import Image from 'next/image'
 
 function Landing() {
 
@@ -14,7 +15,7 @@ function Landing() {
   return (
       <div style={{ display: showVideo ? 'block' : 'none' }}>
       <div className='h-screen w-full text-white pb-10'>
-              <video id='intro-video' src="/assets/Images/Main/video.mp4" autoPlay muted className='h-full w-full'></video>
+              <img  src="/assets/Images/Main/Logo.gif" className='h-full mx-auto w-3/5 object-cover'></img>
       </div>
     </div>
   )
