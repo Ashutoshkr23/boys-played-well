@@ -16,28 +16,28 @@ function Main() {
     <div className='relative  bg-black text-white mt-10 pb-10'>
       {/*For Tablets And Laptop*/}
       <div className='hidden md:block'>
-        <div className='mt-40 fixed z-50 hidden lg:block'>
+        <div className='mt-28 fixed z-50 hidden lg:block'>
           <div className="flex flex-col bg-transparent font-oswald tracking-light text-white w-36">
-            <div className="nav-link-container text-[#808080] hover:text-[#FF843F] border-[#808080] hover:border-[#FF843F] py-2 pl-4    border-b-2">
+            <div className="nav-link-container text-[#808080] hover:text-[#FF843F] border-[#808080] hover:border-[#FF843F] py-4 pl-4    border-b">
               <a href="#films" className="nav-link ">FILMS</a>
             </div>
-            <div className="nav-link-container  pl-4 py-2 text-[#808080] hover:text-[#FF843F] border-[#808080] hover:border-[#FF843F] border-b-2 ">
+            <div className="nav-link-container  pl-4 py-4 text-[#808080] hover:text-[#FF843F] border-[#808080] hover:border-[#FF843F] border-b ">
               <a href="#tv" className="nav-link ">TV</a>
             </div>
-            <div className="nav-link-container  pl-4 py-2 text-[#808080] hover:text-[#FF843F] border-[#808080] hover:border-[#FF843F] border-b-2  ">
+            <div className="nav-link-container  pl-4 py-4 text-[#808080] hover:text-[#FF843F] border-[#808080] hover:border-[#FF843F] border-b  ">
               <a href="#podcast" className="nav-link ">PODCAST</a>
             </div>
-            <div className="nav-link-container  pl-4 py-2 text-[#808080] hover:text-[#FF843F] border-[#808080] hover:border-[#FF843F] border-b-2  ">
+            <div className="nav-link-container  pl-4 py-4 text-[#808080] hover:text-[#FF843F] border-[#808080] hover:border-[#FF843F] border-b  ">
               <a href="#merchandise" className="nav-link ">MERCHANDISE</a>
             </div>
-            <div className="nav-link-container  pl-4 py-2 text-[#808080] hover:text-[#FF843F]  ">
+            <div className="nav-link-container  pl-4 py-4 text-[#808080] hover:text-[#FF843F] border-[#808080] hover:border-[#FF843F] border-b  ">
               <a href="#about" className="nav-link ">ABOUT</a>
             </div>
           </div>
           </div>
         <div className='flex flex-col justify-center items-center'>
           <Image width={425} height={275} className="mt-32"  src="/assets/Images/Main/logo.png" alt="logo"  />
-          <div className='flex w-full mt-20 items-center'>
+          <div className='flex w-full mt-[77px] items-center'>
             <div className='flex-1 h-[1px] bg-white'></div>
             <div>
               <a href=""></a>
@@ -45,12 +45,8 @@ function Main() {
             </div>
             <div className='flex-1 h-[1px] bg-white'></div>
           </div>
-          <button className='tracking-[.25em]  mt-20 w-44 h-11 hover:bg-gradient-to-r from-[#ED5266] to-[#FF843F] ' style={{
-            border: '1px solid transparent',
-            borderRadius: '0px',
-            borderImage: 'linear-gradient(to right, #ED5266, #FF843F) 1',
-          }}>
-            Support
+          <button className='tracking-[.25em] rounded mt-20 w-44 h-11 bg-gradient-to-r from-[#ED5266] to-[#FF843F] '>
+            <div className='bg-black w-[172px] h-[40px] hover:bg-gradient-to-r from-[#ED5266] to-[#FF843F] m-auto rounded py-2'>Support </div>
           </button>
           <ul className="flex flex-col items-center">
             <AnimatePresence>
