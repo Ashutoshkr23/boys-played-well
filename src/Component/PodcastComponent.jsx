@@ -53,14 +53,14 @@ function PodcastComponent({img1, img2, title , date , description , dropShadow})
         <motion.div variants={fadeIn} initial="initial" whileInView="animate" viewport={{ once: true }} className={`bg-black h-[250px] rounded-md  w-[350px] mt-14 mb-10 pt-3 pl-3 ${dropShadow}`}>
           <div className='flex'>
             <div className='h-[111px] w-[111px]'>
-              <Image height={111} width={111} src={img1} alt="" className='h-full w-full rounded-lg' />
+              <Image height={111} width={111} src={img2} alt="" className='h-full w-full rounded-lg' />
             </div>
             <div className='ml-4 '>
               <h1 className='text-base'>{title}</h1>
               <h3 className='text-[#ED5266] text-[10px] mt-0.5'>{date}</h3>
-              <button className="border h-8 w-[127px] rounded-md text-[#B6B6B6] border-[#ED5266] mt-2  pl-3 text-xs flex items-center">
+              <button className="border h-8 w-[127px] rounded-md text-[#B6B6B6] border-[#ED5266] mt-2  pl-2 text-xs flex items-center">
                 LISTEN NOW
-                <Image height={20} width={20} src="/assets/Images/Movie/playimg.png" alt="" className="ml-4 h-5 w-5" />
+                <Image height={20} width={20} src="/assets/Images/Movie/playimg.png" alt="" className="ml-2 h-5 w-5" />
               </button>
               <div className='flex gap-2.5 mt-3'>
                 <a href="#"><Image height={20} width={20} src="/assets/Images/Podcast/Spotify.svg" alt="" className='h-5 w-5' /></a>
