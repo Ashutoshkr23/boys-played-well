@@ -41,12 +41,12 @@ function Main() {
             <div className='flex-1 h-[1px] bg-white'></div>
             <div>
               <a href=""></a>
-              <h1 className='tracking-light text-4xl mx-8'><span className='hover:text-[#FF843F] hover:drop-shadow-text font-oswald'><a href="#films">FILMS</a> </span>|<span className='hover:text-[#FF843F] hover:drop-shadow-text font-oswald'><a href="#tv"> TV </a> </span>|<span className='hover:text-[#FF843F] hover:drop-shadow-text font-oswald'><a href="#podcast"> PODCAST </a></span></h1>
+              <h1 className='tracking-light text-4xl '><span className='hover:text-[#FF843F] hover:drop-shadow-text mr-12 ml-24 font-oswald'><a href="#films">FILMS</a> </span>|<span className='hover:text-[#FF843F] mx-12 hover:drop-shadow-text font-oswald'><a href="#tv"> TV </a> </span>|<span className='hover:text-[#FF843F] hover:drop-shadow-text ml-12 mr-24 font-oswald'><a href="#podcast"> PODCAST </a></span></h1>
             </div>
             <div className='flex-1 h-[1px] bg-white'></div>
           </div>
           <button className='tracking-[.25em] rounded mt-20 w-44 h-11 bg-gradient-to-r from-[#ED5266] to-[#FF843F] '>
-            <div className='bg-black w-[174px] h-[42px] hover:bg-gradient-to-r from-[#ED5266] to-[#FF843F] m-auto rounded font-light py-2'>Support </div>
+            <div className='bg-black w-[174px] h-[42px] hover:bg-gradient-to-r from-[#ED5266] to-[#FF843F] m-auto rounded font-extralight py-2'>Support </div>
           </button>
           <ul className="flex flex-col items-center">
             <AnimatePresence>
