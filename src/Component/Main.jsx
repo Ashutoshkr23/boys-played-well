@@ -41,7 +41,7 @@ function Main() {
             <div className='flex-1 h-[1px] bg-white'></div>
             <div>
               <a href=""></a>
-              <h1 className='tracking-light text-4xl '><span className='hover:text-[#FF843F] hover:drop-shadow-text mr-12 ml-24 font-oswald'><a href="#films">FILMS</a> </span>|<span className='hover:text-[#FF843F] mx-12 hover:drop-shadow-text font-oswald'><a href="#tv"> TV </a> </span>|<span className='hover:text-[#FF843F] hover:drop-shadow-text ml-12 mr-24 font-oswald'><a href="#podcast"> PODCAST </a></span></h1>
+              <h1 className='tracking-light text-4xl '><span className='hover:text-[#FF843F] hover:drop-shadow-text mx-8 xl:mr-12 xl:ml-24 font-oswald'><a href="#films">FILMS</a> </span>|<span className='hover:text-[#FF843F] mx-9 xl:mx-12 hover:drop-shadow-text font-oswald'><a href="#tv"> TV </a> </span>|<span className='hover:text-[#FF843F] hover:drop-shadow-text mx-8 xl:ml-12 xl:mr-24 font-oswald'><a href="#podcast"> PODCAST </a></span></h1>
             </div>
             <div className='flex-1 h-[1px] bg-white'></div>
           </div>
@@ -88,8 +88,7 @@ function Main() {
       {/*For Mobiles*/}
       <div className='md:hidden'>
         <div className='flex flex-col justify-center items-center'>
-          <h1 className='font-extrabold text-[120px]  leading-none mt-16' >BPW</h1>
-          <h6 className='mx-auto mt-2 font-light text-base tracking-[.7em]'>Boys Played Well</h6>
+          <Image width={335} height={275} className="mt-32 mx-8"  src="/assets/Images/Main/logo.png" alt="logo"  />
           <h3 className='text-2xl tracking-light mt-28 font-oswald'>FILMS</h3>
           <div className='flex w-full mt-10 items-center'>
             <div className='flex-1 h-[1px] bg-white'></div>
