@@ -21,9 +21,11 @@ const oswald = Oswald({
 export default function App({ Component, pageProps }: AppProps) {
   return <>
     <Head>
-      <Script
-        dangerouslySetInnerHTML={{
-          __html: `
+      
+    </Head>
+    <Script id="my-script"
+      dangerouslySetInnerHTML={{
+        __html: `
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
@@ -31,11 +33,10 @@ export default function App({ Component, pageProps }: AppProps) {
                 page_path: window.location.pathname,
               });
             `,
-        }}
-      />
-    </Head>
+      }}
+    />
     {/* Global Site Tag (gtag.js) - Google Analytics */}
-    <Script
+    <Script id="my-script-1"
       strategy="afterInteractive"
       src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}`}
     />
