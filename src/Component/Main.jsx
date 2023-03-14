@@ -99,12 +99,8 @@ function Main() {
             <div className='flex-1 h-[1px] bg-white'></div>
           </div>
           <h3 className='text-2xl tracking-light mt-10 font-oswald'>PODCAST</h3>
-          <button className='tracking-light rounded-md mt-20 w-40 h-11 ' style={{
-            border: '1px solid transparent',
-            borderRadius: '8px',
-            borderImage: 'linear-gradient(to right, #ED5266, #FF843F) 1',
-          }}>
-            Support
+          <button className='tracking-[.25em] rounded mt-20 w-44 h-11 bg-gradient-to-r from-[#ED5266] to-[#FF843F] '>
+            <div className='bg-black w-[174px] h-[42px] hover:bg-gradient-to-r from-[#ED5266] to-[#FF843F] m-auto rounded font-light py-2'>Support </div>
           </button>
           <ul className="flex flex-col items-center">
             <li className='h-3 w-3 border border-white rounded-md mt-8'></li>
