@@ -29,7 +29,7 @@ function FilmsComponent({ img1, img2, dropShadow, movieName, aboutmovie, movieDe
                 <Image height={199} width={188} src={img2} alt="" className='rounded-lg' />
               </div>
               <div className='ml-4 mt-4'>
-                <h1 className='text-2xl text-white ml-2'>{movieName}</h1>
+                <h1 className='text-2xl  ml-2'>{movieName}</h1>
                 <h2 className='text-sm mt-2 font-light text-[#ED5266] ml-2'>{aboutmovie}</h2>
                 <button className="border h-10 w-[175px] rounded-md text-[#B6B6B6] border-[#ED5266] mt-8 lg:mt-20 ml-2 pl-4 text-base flex items-center">
                   WATCH NOW
@@ -38,7 +38,7 @@ function FilmsComponent({ img1, img2, dropShadow, movieName, aboutmovie, movieDe
               </div>
             </div>
             <div className='  lg:pr-16'>
-              <p className='text-sm mt-5 mb-6 lg:mb-10 text-white'> {movieDescription}
+              <p className='text-sm mt-5 mb-6 lg:mb-10 '> {movieDescription}
               </p>
             </div>
           </div>
@@ -53,7 +53,7 @@ function FilmsComponent({ img1, img2, dropShadow, movieName, aboutmovie, movieDe
               <img src={img2} alt="" className='h-full w-full rounded-lg' />
             </div>
             <div className='ml-4 '>
-              <h1 className='text-base text-white ml-2'>{movieName}</h1>
+              <h1 className='text-base  ml-2'>{movieName}</h1>
               <h2 className='text-[10px] mt-3 font-light text-[#ED5266] ml-2'>{aboutmovie}</h2>
               <button className="border h-8 w-[130px] rounded-md text-[#B6B6B6] border-[#ED5266] mt-9 ml-2 pl-3 text-[12px] flex items-center">
                 WATCH NOW
@@ -61,7 +61,7 @@ function FilmsComponent({ img1, img2, dropShadow, movieName, aboutmovie, movieDe
               </button>
             </div>
           </div>
-          <p className='text-[10px] mt-5 mb-6 leading-normal mr-3 text-white'> {movieDescription}
+          <p className='text-[10px] mt-5 mb-6 leading-normal mr-3'> {movieDescription}
           </p>
         </motion.div>
       </div>

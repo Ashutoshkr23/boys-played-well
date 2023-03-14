@@ -6,7 +6,7 @@ import PodcastComponent from '../Component/PodcastComponent'
 function Podcast() {
   return (
     <div id='podcast'>
-      <div className='flex flex-col my-28 items-center text-white'>
+      <div className='flex flex-col my-28 items-center '>
         <h1 className='text-2xl md:text-[40px] font-oswald tracking-light'>PODCAST</h1>
         <PodcastComponent
           img1={"/assets/Images/Podcast/podcast-11.png"}

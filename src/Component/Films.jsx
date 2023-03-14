@@ -7,7 +7,7 @@ function Films() {
   
   return (
     <div id='films'>
-      <div className='flex flex-col my-28 items-center text-white'>
+      <div className='flex flex-col my-28 items-center'>
         <h1 className='text-2xl font-oswald md:text-[40px] tracking-light'>FILMS</h1>
         <FilmsComponent 
         img1={'/assets/Images/Movie/kashmiri-1.png'}

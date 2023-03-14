@@ -25,7 +25,7 @@ function PodcastComponent({img1, img2, title , date , description , dropShadow})
                 <Image height={199} width={188} src={img2} alt="" className='rounded-lg' />
               </div>
               <div className='ml-4 mt-4'>
-                <h1 className='text-2xl text-white ml-2'>{title}</h1>
+                <h1 className='text-2xl ml-2'>{title}</h1>
                 <button className="border h-10 w-[175px] rounded-md text-[#B6B6B6] border-[#ED5266] mt-4  pl-4 text-base flex items-center">
                   LISTEN NOW
                   <img src="/assets/Images/Movie/playimg.png" alt="" className="ml-4" />
@@ -37,7 +37,7 @@ function PodcastComponent({img1, img2, title , date , description , dropShadow})
               </div>
             </div>
             <div className='  lg:pr-16'>
-              <p className='text-sm mt-5 mb-6 lg:mb-10 text-white'> {description}
+              <p className='text-sm mt-5 mb-6 lg:mb-10 '> {description}
               </p>
             </div>
           </div>
@@ -68,7 +68,7 @@ function PodcastComponent({img1, img2, title , date , description , dropShadow})
               </div>
             </div>
           </div>
-          <p className='text-[10px] mt-8 leading-relaxed mb-6 mr-3 text-white'> {description}
+          <p className='text-[10px] mt-8 leading-relaxed mb-6 mr-3 '> {description}
           </p>
         </motion.div>
       </div>

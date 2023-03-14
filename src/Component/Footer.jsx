@@ -23,7 +23,7 @@ function Footer() {
                         <img className="w-6 h-6 hover:scale-125 inline-block" src={"assets/Images/footer/instagram-light.ico"} alt="instagram icon" />
                     </a>
                 </div>
-            <div className="text-center text-white text-base opacity-80 ">© {date} BY BOYS PLAYED WELL</div>
+            <div className="text-center  text-base opacity-80 ">© {date} BY BOYS PLAYED WELL</div>
         </div>
     )
 }

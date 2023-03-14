@@ -33,7 +33,7 @@ function Navbar() {
   }
 
   return (
-    <div className='text-white'>
+    <div className=''>
       <div className='lg:hidden '>
         <nav className="bg-dark fixed w-full z-40 top-0 left-0">
           <div className=" w-full flex justify-end">
@@ -59,7 +59,7 @@ function Navbar() {
                 <AnimatePresence>
                   <motion.div variants={fadeIn} initial="initial" whileInView="animate" exit="exit" viewport={{ once: false }} className="absolute ease-in duration-800  w-full h-screen bg-black  border-white border-8 bg-dark shadow-lg z-10">
                   <div className='flex flex-col h-full  content-between'>
-                    <div className="flex flex-col mx-auto mt-20 text-center font-oswald tracking-light text-white w-10/12 z-20">
+                    <div className="flex flex-col mx-auto mt-20 text-center font-oswald tracking-light w-10/12 z-20">
                       <div onClick={() => setIsOpen(!isOpen)} className="nav-link-container  py-2  border-b-2 border-white ">
                         <a href="#films" className="nav-link ">FILMS</a>
                       </div>
