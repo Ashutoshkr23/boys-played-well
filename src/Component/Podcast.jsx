@@ -16,14 +16,11 @@ function Podcast() {
           dropShadow={"drop-shadow-orange-2"}
         description={'This long form podcast is hosted by Krsna Daswani, a relationship coach/ expert. She interviews wide ranging guests to tease out their professional and personal lives to enlighten, educate and entertain audiences.'}
         />
-        <div className='px-8 lg:px-28 mt-20 lg:mt-40 w-full'>
-          <div className=' relative w-full mx-auto h-[350px] hidden drop-shadow-green-1 md:block' style={{ maxWidth: '1180px' }}>
-          <Image layout='fill' objectFit="cover" src="/assets/Images/TV/TV.png" alt="" />
-        </div>
-        </div>
-        <div className='md:hidden'>
-          <div className="drop-shadow-green-1">
-        <Image height={250} width={353}  src="/assets/Images/TV/ComingSoon.png" alt=""  />
+        <div className='px-4 md:px-8 lg:px-28 mt-20 lg:mt-40 w-full'>
+          <div className=''>
+            <div className=' relative flex items-center justify-center w-full bg-black  mx-auto h-[250px] md:h-[350px]  drop-shadow-green-1 ' style={{ maxWidth: '1180px' }}>
+              <h1 className='text-center bg-gradient-to-b from-[#4C8968] to-[#0C0C0F] bg-clip-text text-transparent text-xl lg:text-4xl tracking-[.7em]'>Coming soon</h1>
+            </div>
           </div>
         </div>
       </div>
