@@ -1,12 +1,12 @@
-import Image from 'next/image'
+
 import React, {useState , useEffect} from 'react'
 import { motion, AnimatePresence } from 'framer-motion';
-import { exit } from 'process';
+
 
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
-  const [isDarkMode, setDarkMode] = React.useState(true)
+  
   const [date, setDate] = useState();
 
   function getYear() {
@@ -35,13 +35,13 @@ function Navbar() {
   return (
     <div className=''>
       <div className='lg:hidden '>
-        <nav className="bg-dark fixed w-full z-40 top-0 left-0">
+        <nav className="bg-dark fixed w-full top-0 left-0">
           <div className=" w-full flex justify-end">
             <div className="flex justify-end ">
               <button
                 onClick={() => setIsOpen(!isOpen)}
                 type="button">
-                <div className={`relative border-none mt-6 mr-6 z-50  bg-transparent`}>
+                <div className={`fixed border-none mt-6 mr-6 z-50  bg-transparent`}>
                   <div className='  h-3.5 w-5'>
                     <div
                       className={` h-0.5 bg-white w-5 origin-top-left ease-in duration-200 rounded-md ${isOpen ? 'rotate-45 translate-x-px' : 'rotate-0'}`}

@@ -13,9 +13,9 @@ function Landing() {
         return () => clearTimeout(timer)
     }, [])
   return (
-      <div style={{ display: showVideo ? 'block' : 'none' }}>
+    <div className='h-screen' style={{ display: showVideo ? 'block' : 'none' }}>
       <div className='h-screen w-full flex justify-center items-center '>
-              <img  src="/assets/Images/Main/Logo.gif" className=' object-cover my-auto mx-auto w-3/5'></img>
+        <img src="/assets/Images/Main/Logo.gif" className=' object-cover lg:h-full sm:w-3/5 w-10/12 lg:w-auto mx-auto'></img>
       </div>
     </div>
   )
