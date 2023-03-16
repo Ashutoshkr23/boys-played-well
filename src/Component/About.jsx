@@ -15,43 +15,54 @@ function About() {
             }
         }
     }
-  return (
-      <div id='about '>
-          
-              <div className='flex flex-col my-28 items-center '>
-              <h1 className='text-2xl font-oswald md:text-[40px] tracking-light'>ABOUT</h1>
-              <div className='hidden md:block mx-8 lg:mx-28 mt-28 '>
-              <motion.div variants={fadeIn} initial="initial" whileInView="animate" viewport={{ once: true }} className={`w-full  flex relative  mt-10 lg:hover:scale-110 ease-in-out mx-auto duration-300 bg-black rounded-lg bg-right drop-shadow-About bg-no-repeat py-7 px-7`} style={{ maxWidth: '1180px' }}>
-            <div className='w-[284px] '>
-                <Image width={284} height={301} src="/assets/Images/About/About.png" alt="" />
-            </div>
-            <div className='w-3/5 ml-16 my-auto'>
-                      <h1 className='text-xl font-oswald '>FOUNDER : Tanishq Kaura</h1>
-                      <p className='text-sm mt-8'>Boys Played Well is a production company focused on non-fiction content.
-                      Founded by Tanishq Kaura, a New York University-Tisch School of the Arts graduate.</p>
-                          
-            </div>
-          </motion.div>
-          </div>
-          </div>
-          <div className='md:hidden'>
-              <motion.div variants={fadeIn} initial="initial" whileInView="animate" viewport={{ once: true }} className={`bg-black h-[250px] rounded-md  w-[350px] mt-14 mb-10 mx-auto pt-3  pl-3 drop-shadow-About`}>
-                <div className='flex flex-col'>
-                <div className='flex'>
-                      <div className=' '>
-                          <Image width={140} height={150} src="/assets/Images/About/About.png" alt="" />
-                      </div>
-                      <h1 className='text-base font-oswald ml-4 my-auto'>FOUNDER : Tanishq Kaura</h1>
-                </div>
-                      <p className='text-[10px] mt-4'>Boys Played Well is a production company focused on non-fiction content.
-                          Founded by Tanishq Kaura, a New York University-Tisch School of the Arts graduate.</p>
-                </div>
+    return (
+        <div id='about '>
 
-              </motion.div>
+            <div className='flex flex-col my-28 items-center '>
+                <h1 className='text-2xl font-oswald md:text-[40px] tracking-light'>ABOUT</h1></div>
+                
+            {/*Laptop View*/}
+            <div className='hidden md:block mx-8 lg:mx-28 mt-28'>
+                <motion.div variants={fadeIn} initial="initial" whileInView="animate" viewport={{ once: true }} className={`w-full h-[357px] relative  mt-10 lg:hover:scale-110 bg-black mx-auto ease-in-out duration-300  rounded-lg bg-right bg-no-repeat drop-shadow-About`} style={{ maxWidth: '1180px', backgroundImage: `url('/assets/Images/About/logo1.png')` }}>
+                    <div className="relative pl-7 bg-gradient-to-r from-black via-black to-transparent  pt-7 rounded-lg  z-10 h-full flex flex-col ">
+                        <div className='w-4/5 lg:w-3/5'>
+                            <div className='flex'>
+                                <div className='h-[199px] w-[188px]'>
+                                    <Image height={199} width={188} src="/assets/Images/About/About.png" alt="" className='rounded-lg' />
+                                </div>
+                                <div className='ml-4 mt-4'>
+                                    <h1 className='text-2xl  ml-2'>Boys Played Well</h1>
+                                    <h2 className='text-sm mt-2 font-light text-[#ED5266] ml-2'>Founded by Tanishq Kaura</h2>
+                                </div>
+                            </div>
+                            <div className='  lg:pr-16'>
+                                <p className='text-sm mt-5 mb-6 lg:mb-10 '> We are a production company with a focus on non-fiction content..<br />
+                                    Our Founder is a New York University, Tisch School of the Arts Graduate.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    </motion.div></div>
+            {/* Mobile View */}
 
-          </div>
-    </div>
-  )
+            <div className='md:hidden'>
+                <motion.div variants={fadeIn} initial="initial" whileInView="animate" viewport={{ once: true }} className={`bg-black h-[250px] rounded-md  w-[350px] mt-14 mb-10 pt-3 pl-3 drop-shadow-About`}>
+                    <div className='flex'>
+                        <div className='h-[118px] w-[111px]'>
+                            <img src="/assets/Images/Main/logo.png" alt="" className='h-full w-full rounded-lg' />
+                        </div>
+                        <div className='ml-4 '>
+                            <h1 className='text-base  ml-2'>Boys Played Well</h1>
+                            <h2 className='text-[10px] mt-3 font-light text-[#ED5266] ml-2'>Founded by Tanishq Kaura</h2>
+                        </div>
+                    </div>
+                    <p className='text-[10px] mt-5 mb-6 leading-normal mr-3'>We are a production company with a focus on non-fiction content.<br />
+                        Our Founder is a New York University, Tisch School of the Arts Graduate.
+                    </p>
+                </motion.div>
+            </div>
+        </div>
+    )
 }
 
 export default About
