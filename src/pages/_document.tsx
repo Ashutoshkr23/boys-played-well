@@ -24,14 +24,14 @@ class MyDocument extends Document {
     return (
       <Html lang="en">
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta name="description" content="Bravas Digital is a 360° ROI-focused digital marketing agency that caters around all the end-to-end digital marketing services. Talk to a Digital Expert Now" />
+        <meta name="description" content="Film, TV, Podcast production company focused on non-fiction content" />
         <meta name="facebook-domain-verification" content="t9i0c75tp33caowjlfvcp6ig06u20j" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Bravas Digital" />
-        <meta property="og:description" content="Bravas Digital is a 360° ROI-focused digital marketing agency that caters around all the end-to-end digital marketing services. Talk to a Digital Expert Now" />
-        <meta property="og:url" content="https://www.bravasdigital.com/" />
-        <meta property="og:site_name" content="Best Digital Marketing Agency in Mumbai | Bravas Digital" />
+        <meta property="og:title" content="Boys Played Well" />
+        <meta property="og:description" content="Film, TV, Podcast production company focused on non-fiction content" />
+        <meta property="og:url" content="https://www.boysplayedwell.com/" />
+        <meta property="og:site_name" content="Film, TV, Podcast production company focused on non-fiction content" />
         <meta name="twitter:card" content="summary" />
         <Head>
           <noscript>
