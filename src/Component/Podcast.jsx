@@ -53,7 +53,7 @@ function Podcast() {
               </div>
               <div className='ml-4 '>
                 <h1 className='text-base ml-2'>Bombay Bacchi</h1>
-                <button className="border ml-2 h-10 w-[175px] rounded-md text-[#B6B6B6] border-[#ED5266] mt-4  pl-6 text-base flex items-center">
+                <button className="border ml-2 h-8 w-[127px] rounded-md text-[#B6B6B6] border-[#ED5266] mt-4  pl-6 text-xs flex items-center">
                   COMING SOON
                 </button>
               </div>
