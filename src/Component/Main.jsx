@@ -97,7 +97,7 @@ function Main() {
                 initial="initial"
                 animate="animate"
                 exit="exit"
-                transition={{ ...itemTransition, duration:.2, delay: 0 ,repeat: Infinity, repeatDelay:.6 ,  easeInOut }}
+                transition={{ ...itemTransition, duration:.3, delay: 0 ,repeat: Infinity, repeatDelay:.9 ,  easeInOut }}
               />
             </AnimatePresence>
             <AnimatePresence>
@@ -108,7 +108,7 @@ function Main() {
                 initial="initial"
                 animate="animate"
                 exit="exit"
-                transition={{ ...itemTransition, duration: .2, delay: .2, repeat: Infinity, repeatDelay: .6, easeInOut }}
+                transition={{ ...itemTransition, duration: .3, delay: .3, repeat: Infinity, repeatDelay: .9, easeInOut }}
               />
             </AnimatePresence>
             <AnimatePresence>
@@ -119,7 +119,7 @@ function Main() {
                 initial="initial"
                 animate="animate"
                 exit="exit"
-                transition={{ ...itemTransition, duration: .2, delay: .4, repeat: Infinity, repeatDelay: .6, easeInOut }}
+                transition={{ ...itemTransition, duration: .3, delay: .6, repeat: Infinity, repeatDelay: .9, easeInOut }}
               />
             </AnimatePresence>
           </ul>
