@@ -1,7 +1,6 @@
 
 import { Inter } from '@next/font/google'
 import React, { useEffect, useState } from 'react'
-import styles from '@/styles/Home.module.css'
 import Navbar from '../Component/Navbar'
 import Main from '../Component/Main'
 import Podcast from '../Component/Podcast'

@@ -24,11 +24,11 @@ function About() {
             {/*Laptop View*/}
             <div className='hidden md:block mx-8 lg:mx-28 mt-28'>
                 <motion.div variants={fadeIn} initial="initial" whileInView="animate" viewport={{ once: true }} className={`w-full h-[357px] relative  mt-10 lg:hover:scale-110 bg-black mx-auto ease-in-out duration-300  rounded-lg bg-right bg-no-repeat drop-shadow-About`} style={{ maxWidth: '1180px', backgroundImage: `url('/assets/Images/About/logo1.png')` }}>
-                    <div className="relative pl-7 bg-gradient-to-r from-black via-black to-transparent  pt-7 rounded-lg  z-10 h-full flex flex-col ">
+                    <div className="relative pl-7 bg-gradient-to-r from-black lg:via-black to-transparent  pt-7 rounded-lg  z-10 h-full flex flex-col ">
                         <div className='w-4/5 lg:w-3/5'>
                             <div className='flex'>
                                 <div className='h-[199px] w-[188px]'>
-                                    <Image height={199} width={188} src="/assets/Images/About/About.png" alt="Founder Illustration" className='rounded-lg' />
+                                    <Image height={199} width={188} src="/assets/Images/About/tanishq.png" alt="Founder Illustration" className='rounded-lg' />
                                 </div>
                                 <div className='ml-4 mt-4'>
                                     <h1 className='text-2xl  ml-2'>Boys Played Well</h1>
@@ -46,10 +46,10 @@ function About() {
             {/* Mobile View */}
 
             <div className='md:hidden'>
-                <motion.div variants={fadeIn} initial="initial" whileInView="animate" viewport={{ once: true }} className={`bg-black h-[250px] rounded-md  w-[350px] mt-14 mb-10 pt-3 pl-3 drop-shadow-About`}>
+                <motion.div variants={fadeIn} initial="initial" whileInView="animate" viewport={{ once: true }} className={`bg-black h-[250px] rounded-md  w-[350px] mt-14 mx-auto mb-10 pt-3 pl-3 drop-shadow-About`}>
                     <div className='flex'>
                         <div className='h-[118px] w-[111px]'>
-                            <img src="/assets/Images/Main/logo.png" alt="Founder Illustration" className='h-full w-full rounded-lg' />
+                            <img src="/assets/Images/About/tanishq.png" alt="Founder Illustration" className='h-full w-full rounded-lg' />
                         </div>
                         <div className='ml-4 '>
                             <h1 className='text-base  ml-2'>Boys Played Well</h1>
