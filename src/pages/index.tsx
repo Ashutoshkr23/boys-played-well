@@ -15,6 +15,7 @@ import Landing from '../Component/Landing'
 import { motion, AnimatePresence } from 'framer-motion'
 
 
+
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {

@@ -1,5 +1,6 @@
-import React from 'react'
+import React , {useState} from 'react'
 import Image from 'next/image'
+import Support from '../Component/Support'
 import { motion , AnimatePresence, easeInOut } from 'framer-motion';
 
 function Main() {
@@ -9,13 +10,24 @@ function Main() {
     exit: { scale: 0.5, opacity: 0 , y: 40},
   };
 
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggleDrawer = () => {
+      setIsOpen(!isOpen);
+    };
+
+    const handleClickOutside = () => {
+      setIsOpen(false);
+    };
+
+
   const itemTransition = { duration: 0.5 };
 
   return (
 
     <div className='relative  bg-black mt-10 pb-10'>
       {/*For Tablets And Laptop*/}
-      <div className='hidden md:block'>
+      <div className='hidden md:block' >
         <div className='mt-28 fixed z-50 hidden lg:block'>
           <div className="flex flex-col bg-transparent font-oswald tracking-light  w-36">
             <div className="nav-link-container text-[#808080] hover:text-[#FF843F] border-[#808080] hover:border-[#FF843F] py-4 pl-4    border-b">
@@ -45,9 +57,21 @@ function Main() {
             </div>
             <div className='flex-1 h-[1px] bg-white'></div>
           </div>
-          <button className='tracking-[.25em] rounded mt-20 w-44 h-11 bg-gradient-to-r from-[#ED5266] to-[#FF843F] '>
+          <button onClick={toggleDrawer} className='tracking-[.25em] rounded mt-20 w-44 h-11 bg-gradient-to-r from-[#ED5266] to-[#FF843F] '>
             <div className='bg-black w-[174px] h-[42px] hover:bg-gradient-to-r from-[#ED5266] to-[#FF843F] m-auto rounded font-extralight py-2'>Support </div>
           </button>
+          <AnimatePresence>
+            {isOpen && (
+              <motion.div
+                initial={{ height: 0 }}
+                animate={{ height: "400px" }}
+                exit={{ height: 0 }}
+                style={{ overflow: "hidden" }}
+              >
+                <Support />
+              </motion.div>
+            )}
+          </AnimatePresence>
           <ul className="flex flex-col items-center">
             <AnimatePresence>
               <motion.li
@@ -98,9 +122,22 @@ function Main() {
             <div className='flex-1 h-[1px] bg-white'></div>
           </div>
           <h3 className='text-2xl tracking-light mt-10 font-oswald'>PODCAST</h3>
-          <button className='tracking-[.25em] rounded mt-20 w-44 h-11 bg-gradient-to-r from-[#ED5266] to-[#FF843F] '>
+          <button onClick={toggleDrawer} className='tracking-[.25em] rounded mt-20 w-44 h-11 bg-gradient-to-r from-[#ED5266] to-[#FF843F] '>
             <div className='bg-black w-[174px] h-[42px] hover:bg-gradient-to-r from-[#ED5266] to-[#FF843F] m-auto rounded font-light py-2'>Support </div>
           </button>
+          <AnimatePresence>
+            {isOpen && (
+              <motion.div
+                initial={{ height: 0 }}
+                animate={{ height: "1620px" }}
+                exit={{ height: 0 }}
+                style={{ overflow: "hidden" }}
+              >
+                <Support />
+              </motion.div>
+            )}
+          </AnimatePresence>
+
           <ul className="flex flex-col items-center">
             <li className='h-3 w-3 border border-white rounded-md mt-8'></li>
             <li className='h-2.5 w-2.5 border border-white border-opacity-60 rounded-[5px] mt-8 '></li>
