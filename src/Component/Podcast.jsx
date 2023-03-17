@@ -23,7 +23,7 @@ function Podcast() {
           img2={"/assets/Images/Podcast/podcast-31.png"}
           title={'Unfiltered Banter'}
           date={'Date'}
-          dropShadow={"drop-shadow-orange-2"}
+          dropShadow={"drop-shadow-blue-2"}
           description={'Hosted by chaddi buddies— Addy (Aditya Joshi) and Sid (Siddharth Nair). They entertain audiences by reviewing & reacting to all things desi and videsi.'}
         />   
       </div>
