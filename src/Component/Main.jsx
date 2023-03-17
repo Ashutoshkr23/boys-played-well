@@ -60,18 +60,34 @@ function Main() {
           <button onClick={toggleDrawer} className='tracking-[.25em] rounded mt-20 w-44 h-11 bg-gradient-to-r from-[#ED5266] to-[#FF843F] '>
             <div className='bg-black w-[174px] h-[42px] hover:bg-gradient-to-r from-[#ED5266] to-[#FF843F] m-auto rounded font-extralight py-2'>Support </div>
           </button>
-          <AnimatePresence>
-            {isOpen && (
-              <motion.div
-                initial={{ height: 0 }}
-                animate={{ height: "400px" }}
-                exit={{ height: 0 }}
-                style={{ overflow: "hidden" }}
-              >
-                <Support />
-              </motion.div>
-            )}
-          </AnimatePresence>
+          <div className='lg:hidden'>
+            <AnimatePresence>
+              {isOpen && (
+                <motion.div
+                  initial={{ height: 0 }}
+                  animate={{ height: "800px" }}
+                  exit={{ height: 0 }}
+                  style={{ overflow: "hidden" }}
+                >
+                  <Support />
+                </motion.div>
+              )}
+            </AnimatePresence>
+          </div>
+          <div className='hidden lg:block'>
+            <AnimatePresence>
+              {isOpen && (
+                <motion.div
+                  initial={{ height: 0 }}
+                  animate={{ height: "400px" }}
+                  exit={{ height: 0 }}
+                  style={{ overflow: "hidden" }}
+                >
+                  <Support />
+                </motion.div>
+              )}
+            </AnimatePresence>
+          </div>
           <ul className="flex flex-col items-center">
             <AnimatePresence>
               <motion.li
