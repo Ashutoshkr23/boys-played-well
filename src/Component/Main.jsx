@@ -155,9 +155,39 @@ function Main() {
           </AnimatePresence>
 
           <ul className="flex flex-col items-center">
-            <li className='h-3 w-3 border border-white rounded-md mt-8'></li>
-            <li className='h-2.5 w-2.5 border border-white border-opacity-60 rounded-[5px] mt-8 '></li>
-            <li className='h-2 w-2 border border-white border-opacity-30 rounded-[4px] mt-8'></li>
+            <AnimatePresence>
+              <motion.li
+                key="item1"
+                className="h-3 w-3 border border-white rounded-md mt-8 bg-white"
+                variants={itemVariants}
+                initial="initial"
+                animate="animate"
+                exit="exit"
+                transition={{ ...itemTransition, duration: .3, delay: 0, repeat: Infinity, repeatDelay: .9, easeInOut }}
+              />
+            </AnimatePresence>
+            <AnimatePresence>
+              <motion.li
+                key="item2"
+                className="h-2.5 w-2.5 bg-white border border-white border-opacity-60 rounded-[5px] mt-8 "
+                variants={itemVariants}
+                initial="initial"
+                animate="animate"
+                exit="exit"
+                transition={{ ...itemTransition, duration: .3, delay: .3, repeat: Infinity, repeatDelay: .9, easeInOut }}
+              />
+            </AnimatePresence>
+            <AnimatePresence>
+              <motion.li
+                key="item3"
+                className="h-2 w-2 bg-white border border-white border-opacity-30 rounded-[4px] mt-8"
+                variants={itemVariants}
+                initial="initial"
+                animate="animate"
+                exit="exit"
+                transition={{ ...itemTransition, duration: .3, delay: .6, repeat: Infinity, repeatDelay: .9, easeInOut }}
+              />
+            </AnimatePresence>
           </ul>
         </div>
       </div>
