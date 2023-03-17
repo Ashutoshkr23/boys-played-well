@@ -29,7 +29,7 @@ function Podcast() {
       </div>
       <div className='hidden md:block'>
         <div className='px-4 md:px-8 lg:px-28 mt-20 lg:mt-40 w-full'>
-          <div className=' relative rounded-md p-7 flex items-center justify-center w-full bg-black  mx-auto h-[250px] md:h-[350px] bg-right bg-no-repeat drop-shadow-green-1 ' style={{ maxWidth: '1180px', backgroundImage: `url('/assets/Images/Podcast/podcast-42.png')` }}>
+          <div className=' relative rounded-md p-7 flex items-center justify-center w-full bg-black  mx-auto h-[250px] md:h-[350px] bg-right bg-no-repeat drop-shadow-orange-2 ' style={{ maxWidth: '1180px', backgroundImage: `url('/assets/Images/Podcast/podcast-42.png')` }}>
             <div className='flex mr-auto mb-auto'>
               <div className='h-[199px] w-[188px]'>
                 <Image height={199} width={188} src="/assets/Images/Podcast/podcast-41.png" alt="Podcast Poster" className='rounded-lg' />
@@ -46,7 +46,7 @@ function Podcast() {
       </div>
       <div className='md:hidden'>
         <div className='px-4 md:px-8 lg:px-28 mt-20 lg:mt-40 w-full'>
-          <div className=' relative rounded-md p-7 flex items-center justify-center w-full bg-black  mx-auto h-[250px] md:h-[350px] bg-right bg-no-repeat drop-shadow-green-1 ' >
+          <div className=' relative rounded-md p-7 flex items-center justify-center w-full bg-black  mx-auto h-[250px] md:h-[350px] bg-right bg-no-repeat drop-shadow-orange-2 ' >
             <div className='flex mr-auto mb-auto'>
               <div className='h-[111px] w-[111px]'>
                 <Image height={111} width={111} src="/assets/Images/Podcast/podcast-41.png" alt="Podcast Poster" className='rounded-lg' />
