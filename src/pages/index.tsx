@@ -1,17 +1,10 @@
 
 import { Inter } from '@next/font/google'
 import React, { useEffect, useState } from 'react'
-import Navbar from '../Component/Navbar'
-import Main from '../Component/Main'
-import Podcast from '../Component/Podcast'
-import Footer from '../Component/Footer'
-import Demo from '../Component/Demo'
-import Merchandise from '../Component/Merchandise'
-import About from '../Component/About'
-import Films from '../Component/Films'
-import Tv from '../Component/Tv'
-import Landing from '../Component/Landing'
-import { motion, AnimatePresence } from 'framer-motion'
+// import Demo from '../Component/Demo'
+import {About, Navbar, Main, Podcast, Footer, Films, Tv, Landing, Merchandise} from '../components'
+import { motion , AnimatePresence } from 'framer-motion';
+import Head from 'next/head';
 
 
 
@@ -39,7 +32,11 @@ export default function Home() {
   }
 
   return (
+    
 <div>
+  <Head>
+    <title> BPW | Film, TV, Podcast</title>
+  </Head>
     <Landing/>
       <AnimatePresence>
         {firstComponent &&

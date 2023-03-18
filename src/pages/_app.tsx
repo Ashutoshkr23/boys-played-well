@@ -23,7 +23,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <Head>
       
     </Head>
-    <Script id="my-script"
+    {/* <Script id="my-script"
       dangerouslySetInnerHTML={{
         __html: `
               window.dataLayer = window.dataLayer || [];
@@ -34,12 +34,12 @@ export default function App({ Component, pageProps }: AppProps) {
               });
             `,
       }}
-    />
+    /> */}
     {/* Global Site Tag (gtag.js) - Google Analytics */}
-    <Script id="my-script-1"
+    {/* <Script id="my-script-1"
       strategy="afterInteractive"
       src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}`}
-    />
+    /> */}
     <main className={`${poppins.variable} font-sans , ${oswald.variable} font-sans`}>
       <Component {...pageProps} />
     </main>

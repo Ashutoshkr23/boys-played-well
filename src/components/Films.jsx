@@ -1,5 +1,5 @@
 import React from 'react'
-import FilmsComponent from '../Component/FilmsComponent'
+import {FilmsComponent} from '../components'
 
 
 function Films() {

@@ -1,6 +1,6 @@
 import React , {useState} from 'react'
 import Image from 'next/image'
-import Support from '../Component/Support'
+import {Support} from '../components'
 import { motion , AnimatePresence, easeInOut } from 'framer-motion';
 
 function Main() {

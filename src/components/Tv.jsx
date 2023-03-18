@@ -1,6 +1,5 @@
 import React from 'react'
-import Image from 'next/legacy/image'
-import ComingSoon from '../Component/ComingSoon'
+import {ComingSoon} from '../components'
 
 function Tv() {
   return (

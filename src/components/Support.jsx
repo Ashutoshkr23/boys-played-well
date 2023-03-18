@@ -1,5 +1,5 @@
 import React from 'react'
-import SupportCard from '../Component/SupportCard'
+import {SupportCard} from '../components'
 
 function Support() {
   return (

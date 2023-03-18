@@ -1,8 +1,6 @@
 import Image from 'next/legacy/image'
 import React from 'react'
-import PodcastComponent from '../Component/PodcastComponent'
-import ComingSoon from '../Component/ComingSoon'
-import { motion } from "framer-motion";
+import {PodcastComponent} from '../components'
 
 
 function Podcast() {
