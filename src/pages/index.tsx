@@ -33,7 +33,7 @@ export default function Home() {
 
   return (
     
-<div>
+<>
   <Head>
     <title> BPW | Film, TV, Podcast</title>
   </Head>
@@ -52,6 +52,6 @@ export default function Home() {
             <Footer />
           </motion.div>}
       </AnimatePresence>
-</div>
+</>
   )
 }

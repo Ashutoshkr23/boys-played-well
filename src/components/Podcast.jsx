@@ -11,7 +11,7 @@ function Podcast() {
         <PodcastComponent
           img1={"/assets/Images/Podcast/podcast-11.png"}
           img2={"/assets/Images/Podcast/podcast-1.png"}
-          title={'Real Talk'}
+          title={'@TheRealVoicePodcast'}
           date={'Date'}
           dropShadow={"drop-shadow-orange-2"}
         description={'This long form podcast is hosted by Krsna Daswani, a relationship coach/ expert. She interviews wide ranging guests to tease out their professional and personal lives to enlighten, educate and entertain audiences.'}
@@ -19,7 +19,7 @@ function Podcast() {
         <PodcastComponent
           img1={"/assets/Images/Podcast/podcast-32.png"}
           img2={"/assets/Images/Podcast/podcast-31.png"}
-          title={'Unfiltered Banter'}
+          title={'@UnfilteredBanter'}
           date={'Date'}
           dropShadow={"drop-shadow-blue-2"}
           description={'Hosted by chaddi buddies— Addy (Aditya Joshi) and Sid (Siddharth Nair). They entertain audiences by reviewing & reacting to all things desi and videsi.'}
@@ -33,7 +33,7 @@ function Podcast() {
                 <Image height={199} width={188} src="/assets/Images/Podcast/podcast-41.png" alt="Podcast Poster" className='rounded-lg' />
               </div>
               <div className='ml-4 mt-4'>
-                <h1 className='text-2xl ml-2'>Bombay Bacchi</h1>
+                <h1 className='text-2xl ml-2'>@BombayBacchi</h1>
                 <button className="border ml-2 h-10 w-[175px] rounded-md text-[#B6B6B6] border-[#ED5266] mt-4  pl-4 text-base flex items-center">
                   COMING SOON
                 </button>
