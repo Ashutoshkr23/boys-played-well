@@ -28,7 +28,7 @@ function PodcastComponent({img1, img2, title , date , description , dropShadow})
               <div className='ml-4 mt-4'>
                 <h1 className='text-2xl ml-2'>{title}</h1>
                 <button className="border h-10 w-[175px] rounded-md text-[#B6B6B6] border-[#ED5266] mt-4  pl-4 text-base flex items-center">
-                  LISTEN NOW
+                  Watch Trailer
                   <img src="/assets/Images/Movie/playimg.png" alt="Play Image" className="ml-4" />
                 </button>
                 <div className='flex gap-4 mt-5'>

@@ -36,8 +36,8 @@ function About() {
                                 </div>
                             </div>
                             <div className='  lg:pr-16'>
-                                <p className='text-sm mt-5 mb-6 lg:mb-10 '> We are a production company with a focus on non-fiction content..<br />
-                                    Our Founder is a New York University, Tisch School of the Arts Graduate.
+                                <p className='text-sm mt-5 mb-6 lg:mb-10 '> We are a production company with a focus on non-fiction content.<br />
+                                    Our founder is a Filmmaker, Author and New York University, Tisch Graduate.
                                 </p>
                             </div>
                         </div>
@@ -57,7 +57,7 @@ function About() {
                         </div>
                     </div>
                     <p className='text-[10px] mt-5 mb-6 leading-normal mr-3'>We are a production company with a focus on non-fiction content.<br />
-                        Our Founder is a New York University, Tisch School of the Arts Graduate.
+                        Our founder is a Filmmaker, Author and New York University, Tisch Graduate.
                     </p>
                 </motion.div>
             </div>

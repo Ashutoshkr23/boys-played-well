@@ -32,7 +32,7 @@ function FilmsComponent({ img1, img2, dropShadow, movieName, aboutmovie, movieDe
                 <h1 className='text-2xl  ml-2'>{movieName}</h1>
                 <h2 className='text-sm mt-2 font-light text-[#ED5266] ml-2'>{aboutmovie}</h2>
                 <button className="border h-10 w-[175px] rounded-md text-[#B6B6B6] border-[#ED5266] mt-8 lg:mt-20 ml-2 pl-4 text-base flex items-center">
-                  WATCH NOW
+                  Watch Trailer
                   <img src="/assets/Images/Movie/playimg.png" alt="Play Image" className="ml-4" />
                 </button>
               </div>
@@ -56,7 +56,7 @@ function FilmsComponent({ img1, img2, dropShadow, movieName, aboutmovie, movieDe
               <h1 className='text-base  ml-2'>{movieName}</h1>
               <h2 className='text-[10px] mt-3 font-light text-[#ED5266] ml-2'>{aboutmovie}</h2>
               <button className="border h-8 w-[130px] rounded-md text-[#B6B6B6] border-[#ED5266] mt-9 ml-2 pl-2 text-[12px] flex items-center">
-                WATCH NOW
+                Watch Trailer
                 <img src="/assets/Images/Movie/playimg.png" alt="Play Image" className="ml-2 w-5 h-5" />
               </button>
             </div>

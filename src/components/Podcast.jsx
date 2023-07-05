@@ -7,23 +7,31 @@ function Podcast() {
   return (
     <div id='podcast'>
       <div className='flex flex-col my-28 items-center '>
-        <h1 className='text-2xl md:text-[40px] font-oswald tracking-light'>PODCAST</h1>
+        <h1 className='text-2xl md:text-[40px] font-oswald tracking-light'>PODCASTS</h1>
         <PodcastComponent
           img1={"/assets/Images/Podcast/podcast-11.png"}
           img2={"/assets/Images/Podcast/podcast-1.png"}
-          title={'@TheRealVoicePodcast'}
+          title={'@RealVoicePodcast'}
           date={'Date'}
           dropShadow={"drop-shadow-orange-2"}
-        description={'This long form podcast is hosted by Krsna Daswani, a relationship coach/ expert. She interviews wide ranging guests to tease out their professional and personal lives to enlighten, educate and entertain audiences.'}
+          description={'Invites wide ranging guests to enlighten, educate and entertain audiences. Co-hosted by Krsna Daswani and Neel Nakra. Krsna is a Matchmaker/ relationship expert and Neel is a writer/ former talent agent.'}
         />  
         <PodcastComponent
           img1={"/assets/Images/Podcast/podcast-32.png"}
           img2={"/assets/Images/Podcast/podcast-31.png"}
-          title={'@UnfilteredBanter'}
+          title={'@WealthWellnessLab'}
           date={'Date'}
           dropShadow={"drop-shadow-blue-2"}
-          description={'Hosted by chaddi buddies— Addy (Aditya Joshi) and Sid (Siddharth Nair). They entertain audiences by reviewing & reacting to all things desi and videsi.'}
+          description={'Is a finance and health podcast discussing all things prosperity and vigor related, Co-hosted by Shefali Sood and …'}
         />   
+        <PodcastComponent
+          img1={"/assets/Images/Podcast/podcast-42.png"}
+          img2={"/assets/Images/Podcast/podcast-41.png"}
+          title={'@UndividedIndia'}
+          date={'Date'}
+          dropShadow={"drop-shadow-orange-2"}
+          description={'Invites wide ranging guests to discuss all things India in detail. From culture & history to entrepreneurship & politics.'}
+        /> 
       </div>
       <div className='hidden md:block'>
         <div className='px-4 md:px-8 lg:px-28 mt-20 lg:mt-40 w-full'>
