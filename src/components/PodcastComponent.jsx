@@ -38,7 +38,7 @@ function PodcastComponent({img1, img2, title , date , description , dropShadow})
               </div>
             </div>
             <div className='  lg:pr-16'>
-              <p className='text-sm mt-5 mb-6 lg:mb-10 '> {description}
+              <p className='text-sm mt-5 mb-6 lg:mb-10 '> {description}<span className='invisible'>Is a finance and health podcast discussing all things prosperity and vigor related, Co-hosted by Shefali Sood and …</span>
               </p>
             </div>
           </div>
@@ -60,7 +60,7 @@ function PodcastComponent({img1, img2, title , date , description , dropShadow})
               <h1 className='text-base'>{title}</h1>
               <h3 className='text-[#ED5266] text-[10px] mt-0.5'>{date}</h3>
               <button className="border h-8 w-[127px] rounded-md text-[#B6B6B6] border-[#ED5266] mt-2  pl-2 text-xs flex items-center">
-                LISTEN NOW
+                Watch Trailer
                 <Image height={20} width={20} src="/assets/Images/Movie/playimg.png" alt="Play Image" className="ml-2 h-5 w-5" />
               </button>
               <div className='flex gap-2.5 mt-3'>

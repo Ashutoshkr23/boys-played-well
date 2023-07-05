@@ -33,6 +33,10 @@ function About() {
                                 <div className='ml-4 mt-4'>
                                     <h1 className='text-2xl  ml-2'>Boys Played Well</h1>
                                     <h2 className='text-sm mt-2 font-light text-[#ED5266] ml-2'>Founded by Tanishq Kaura</h2>
+                                    <button className="border h-10 w-[175px] rounded-md text-[#B6B6B6] border-[#ED5266] mt-4  pl-4 text-base flex items-center">
+                                        Learn More
+                                        <img src="/assets/Images/Movie/playimg.png" alt="Play Image" className="ml-4" />
+                                    </button>
                                 </div>
                             </div>
                             <div className='  lg:pr-16'>
@@ -54,9 +58,13 @@ function About() {
                         <div className='ml-4 '>
                             <h1 className='text-base  ml-2'>Boys Played Well</h1>
                             <h2 className='text-[10px] mt-3 font-light text-[#ED5266] ml-2'>Founded by Tanishq Kaura</h2>
+                            <button className="border h-8 w-[127px] rounded-md text-[#B6B6B6] border-[#ED5266] mt-2  pl-2 text-xs flex items-center">
+                                Learn More
+                                <Image height={20} width={20} src="/assets/Images/Movie/playimg.png" alt="Play Image" className="ml-2 h-5 w-5" />
+                            </button>
                         </div>
                     </div>
-                    <p className='text-[10px] mt-5 mb-6 leading-normal mr-3'>We are a production company with a focus on non-fiction content.<br />
+                    <p className='text-[10px] mt-5 mb-6 leading-normal mr-3'>We are a production company with a focus on non-fiction content.
                         Our founder is a Filmmaker, Author and New York University, Tisch Graduate.
                     </p>
                 </motion.div>
